@@ -1,0 +1,125 @@
+----------------------------------------
+Start of task1 Testing
+
+get_file_parameters(sample1.txt ) = ['$name:sample1.txt$', '$type:text$', '$size:607$']
+get_file_parameters(sample2.html) = ['$name:sample2.html$', '$type:text$', '$size:406$']
+get_file_parameters(sample3.rtf ) = ['$name:sample3.rtf$', '$type:text$', '$size:42649$']
+get_file_parameters(sample4.png ) = ['$name:sample4.png$', '$type:pic$', '$size:4520$']
+get_file_parameters(sample5.jpg ) = ['$name:sample5.jpg$', '$type:pic$', '$size:7876$']
+get_file_parameters(sample6.gif ) = ['$name:sample6.gif$', '$type:pic$']
+get_file_parameters(sample7.pdf ) = ['$name:sample7.pdf$', '$size:3028$']
+get_file_parameters(readme      ) = []
+get_file_parameters(readme.txt  ) = ['$name:readme.txt$', '$type:text$']
+get_file_parameters(readme.pdf  ) = ['$name:readme.pdf$']
+
+End of task1 Testing
+----------------------------------------
+----------------------------------------
+Start of task2 Testing
+
+valid_commands_format() = False
+valid_commands_format([]) = False
+valid_commands_format(['tricky!']) = False
+valid_commands_format(['?name:text1.txt?', '$size:104$', '$type:text$']) = False
+valid_commands_format(['$type:pic$', '(size:6501)', '$name:text2.txt$']) = False
+valid_commands_format(['$type:pic$', '$name:text3.txt$', '*size:7899*']) = False
+valid_commands_format(['$type:pic$', '$name:t.pic$', '%size:7%', '$n=7$']) = False
+valid_commands_format(hackathon) = False
+valid_commands_format(?name:text1.txt?$size:104$$type:text$) = False
+valid_commands_format($type:pic$(size:6501)$name:text2.txt$) = False
+valid_commands_format($type:pic$$name:t.pic$%size:7%$n=7$) = False
+valid_commands_format($name:sam6.gif$$type:pic$$size:7642$) = True
+valid_commands_format(['$name:sam6.gif$', '$type:pic$', '$size:7642$']) = True
+valid_commands_format(['$size:7642$', '$name:sam6.gif$', '$type:pic$']) = True
+valid_commands_format(['$name:r.jpg$', '$type:pic$', '$pad:q$', '$size:7$']) = True
+
+End of task2 Testing
+----------------------------------------
+----------------------------------------
+Start of task3 Testing
+
+Case 1: invalid socket type
+False
+Case 2: socket of type server
+stp(server): socket closed
+True
+Case 3: socket of type client
+stp(client): socket closed
+True
+Case 4: connected socket
+stp(client): connection shutdown
+stp(client): socket closed
+True
+Case 5: closed socket
+False
+Case 6: listening socket
+stp(server): socket closed
+True
+
+End of task3 Testing
+----------------------------------------
+----------------------------------------
+Start of task4 Testing
+
+Case 0: Invalid type
+validated
+
+Case 1: Client socket
+stp(client): socket created
+validated
+stp(client): socket closed
+
+Case 2: Server socket
+stp(server): socket created
+stp(server): bound to ('localhost', 4100)
+stp(server): listening ...
+
+validated
+stp(client): socket closed
+
+Case 3: Server socket with invalid bound
+stp(server): socket created
+stp(server): bind fatal error
+validated
+
+End of task4 Testing
+----------------------------------------
+----------------------------------------
+Start of task5 Testing
+
+validate_configuration(['?name:text1.txt?', '$size:104$', '$type:text$']):
+('#10:ILLEGAL_COMMAND#', [])
+
+validate_configuration(['$name:file1.txt$', '$type:text$']):
+('#20:COMMAND_MISSING#', [])
+
+validate_configuration(['$pad:q$', '$name:r.jpg$', '$size:7$']):
+('#20:COMMAND_MISSING#', [])
+
+validate_configuration(['$name:file1.txt$', '$type:text$', '$size:0$']):
+('#30:BAD_CONFIGURATION#', [])
+
+validate_configuration(['$type:text$', '$name:file1.t.xt$', '$size:78$']):
+('#30:BAD_CONFIGURATION#', [])
+
+validate_configuration(['$name:file1.txt$', '$type:text$', '$size:75$']):
+('<configuration_approved>', ['$name:file1.txt$', '$type:text$', '$size:75$'])
+
+validate_configuration(['$name:r.jpg$', '$type:pic$', '$pad=q$', '$size:7$']):
+('<configuration_approved>', ['$name:r.jpg$', '$type:pic$', '$pad=q$', '$size:7$'])
+
+End of task5 Testing
+----------------------------------------
+----------------------------------------
+Start of task6 Testing
+
+get_parameter_value(['$name:file1.txt$', '$type:text$', '$size:0$'],type) = text
+get_parameter_value(['$type:pic$', '$size:150$', '$name:file2.png$'],size) = 150
+get_parameter_value(['$size:4180$', '$name:file3.jpg$', '$type:pic$'],name) = file3.jpg
+get_parameter_value(['$size:791$', '$name:file4.html$', '$type:text$'],length) = None
+get_parameter_value($name:file1.txt$$type:text$$size:14$,size) = 14
+get_parameter_value($type:pic$$size:150$$name:file2.png$,name) = file2.png
+get_parameter_value(['$size:4180$', '?name:file3.jpg?', '$type:pic$'],type) = None
+
+End of task6 Testing
+----------------------------------------
