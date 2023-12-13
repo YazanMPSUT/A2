@@ -157,7 +157,7 @@ def handle_client(filename,connection : socket) -> None:
     if validation_message == APPROVAL_MESSAGE:
         download_file(filename,connection,commands)
     
-    #connection.shutdown(SHUT_RDWR)
+    connection.shutdown(SHUT_RDWR)
     close_socket(filename,connection,'server')
     write(filename,'\n')
 
@@ -293,26 +293,26 @@ def download_file(out_filename,sock : socket,commands):
         write(out_filename,f'stp(server): downloading ...\n')
         
         if file_type == 'text':
-            fh = open(download_target,'+wt',encoding=ENCODING)
-            while written < file_size : 
-                msg_in = sock.recv(BLOCK_SIZE)
-                if not msg_in:
-                    break
-                written += fh.write(msg_in.decode(ENCODING)) 
-                write(out_filename,f'stp(server): received: {msg_in}\n')
+            with open(download_target,'+wt',encoding=ENCODING) as fh:
+                while written < file_size : 
+                    msg_in = sock.recv(BLOCK_SIZE)
+                    if not msg_in:
+                        break
+                    written += fh.write(msg_in.decode(ENCODING)) 
+                    write(out_filename,f'stp(server): received: {msg_in}\n')
 
         else:
-            fh = open(download_target,'+wb')
-            while written < file_size : 
-                msg_in = sock.recv(BLOCK_SIZE)
-                if not msg_in:
-                    break
-                if file_type == 'text':
-                    to_write = msg_in.decode(ENCODING)
-                else:
+            with open(download_target,'+wb') as fh:
+                while written < file_size : 
+                    msg_in = sock.recv(BLOCK_SIZE)
+                    if not msg_in:
+                        break
+                    # if file_type == 'text':
+                    #     to_write = msg_in.decode(ENCODING)
+                    # else:
                     to_write = msg_in
-                written += fh.write(to_write) 
-                write(out_filename,f'stp(server): received: {msg_in}\n')
+                    written += fh.write(to_write) 
+                    write(out_filename,f'stp(server): received: {msg_in}\n')
 
 
         write(out_filename,'stp(server): download complete\n')
@@ -367,10 +367,10 @@ def get_file_parameters(filename) -> list:
 
     try: 
         if file_type == 'text':
-            with open(filename,'rt',encoding=ENCODING) as textfile:
+            with open(filename,'+rt',encoding=ENCODING) as textfile:
                 file_size = len(textfile.read())
         else: 
-            with open(filename,'rb') as image:
+            with open(filename,'+rb') as image:
                 file_size = len(image.read()) 
 
         param_list.append('$' + f'size:{file_size}'+ '$')
@@ -421,12 +421,6 @@ def close_socket(filename,sock : socket,sock_type='client'):
     
     #if sock.getsockopt(SOL_SOCKET,SO_ACCEPTCONN):
     if sock_type == 'server':
-        try:
-            sock.send(b'')
-            sock.shutdown(SHUT_RDWR)
-            #write(filename,f'stp({sock_type}): connection shutdown\n')
-        except :
-            pass
         sock.close()
         write(filename,f'stp({sock_type}): socket closed\n')
         return True
@@ -565,12 +559,14 @@ def stp_client(out_filename,server_address,filename=None,commands=None):
         if APPROVAL_MESSAGE == response:
             upload_file(out_filename,client_socket,commands)
         close_socket(out_filename,client_socket)
-                
-        pass
+        # try:
+        #     while True:
+        #         client_socket.sendall(b'')
+        # except:
+        #     pass
 
     except Exception as e:
         write(out_filename,f'stp(client): Exception: {e}\n')
-        pass
 
     return None
 
@@ -699,22 +695,28 @@ def upload_file(out_filename,sock : socket,commands):
         return False
     
     commands_dict = _get_parameters_as_dictionary(commands)
-
+    file_type = commands_dict['type']
+    file_name = commands_dict['name']
     try:
-        # if(None in commands_dict.values()):
-        #     return False
-        fh = open(commands_dict['name'],'rt',encoding=ENCODING) if (commands_dict['type'] == 'text') else open(commands_dict['name'],'rb') 
-        write(out_filename,f'stp(client): uploading ...\n')
-        read_contents =  fh.read(BLOCK_SIZE)
-        while len(read_contents) > 0:
-            if commands_dict['type'] == 'text':
-                out_msg = read_contents.encode(ENCODING)
-            else:
-                out_msg = read_contents
-            sock.sendall(out_msg)
-            write(out_filename,f'stp(client): sent: {out_msg}\n')
-            read_contents = fh.read(BLOCK_SIZE)
-        
+        write(out_filename,'stp(client): uploading ...\n')
+        if file_type == 'text':
+            with open(file_name,'+rt',encoding=ENCODING) as fh:
+                read_contents = fh.read(BLOCK_SIZE)
+                while len(read_contents) > 0:
+                    out_msg = read_contents.encode(ENCODING)
+                    sock.sendall(out_msg)
+                    write(out_filename,f'stp(client): sent: {out_msg}\n')
+                    read_contents = fh.read(BLOCK_SIZE)
+
+        else: 
+            with open(file_name,'+rb') as fh:
+                    read_contents = fh.read(BLOCK_SIZE)
+                    while len(read_contents) > 0:
+                        sock.sendall(read_contents)
+                        write(out_filename,f'stp(client): sent: {read_contents}\n')
+                        read_contents = fh.read(BLOCK_SIZE)
+
+
         write(out_filename,'stp(client): uploading complete\n')
         return True
     except FileNotFoundError:
