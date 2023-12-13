@@ -1,49 +1,691 @@
 ----------------------------------------
 Start of task7 Testing
 
+stp(client): socket created
+stp(client): sent: tricky!
+stp(client): sent: <configuration_complete>
+stp(client): received: #10:ILLEGAL_COMMAND#
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: ?name:text1.txt?
+stp(client): sent: $size:104$
+stp(client): sent: $type:text$
+stp(client): sent: <configuration_complete>
+stp(client): received: #10:ILLEGAL_COMMAND#
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $type:pic$
+stp(client): sent: (size:6501)
+stp(client): sent: $name:text2.txt$
+stp(client): sent: <configuration_complete>
+stp(client): received: #10:ILLEGAL_COMMAND#
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $type:pic$
+stp(client): sent: $name:text3.txt$
+stp(client): sent: *size:7899*
+stp(client): sent: <configuration_complete>
+stp(client): received: #10:ILLEGAL_COMMAND#
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $type:text$
+stp(client): sent: $name:text4.txt$
+stp(client): sent: %size:6501%
+stp(client): sent: $count=7$
+stp(client): sent: <configuration_complete>
+stp(client): received: #10:ILLEGAL_COMMAND#
+stp(client): connection shutdown
+stp(client): socket closed
 
 End of task7 Testing
 ----------------------------------------
 ----------------------------------------
 Start of task8 Testing
 
+stp(client): socket created
+stp(client): sent: $type:text$
+stp(client): sent: <configuration_complete>
+stp(client): received: #20:COMMAND_MISSING#
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $type:text$
+stp(client): sent: $size:512$
+stp(client): sent: <configuration_complete>
+stp(client): received: #20:COMMAND_MISSING#
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $name:file3.txt$
+stp(client): sent: $count:30$
+stp(client): sent: $size:512$
+stp(client): sent: <configuration_complete>
+stp(client): received: #20:COMMAND_MISSING#
+stp(client): connection shutdown
+stp(client): socket closed
 
 End of task8 Testing
 ----------------------------------------
 ----------------------------------------
 Start of task9 Testing
 
+stp(client): socket created
+stp(client): sent: $type:pic$
+stp(client): sent: $size:6501$
+stp(client): sent: $name:text2$
+stp(client): sent: <configuration_complete>
+stp(client): received: #30:BAD_CONFIGURATION#
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $size:-4$
+stp(client): sent: $name:file2.pdf$
+stp(client): sent: $type:text$
+stp(client): sent: <configuration_complete>
+stp(client): received: #30:BAD_CONFIGURATION#
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $name:pic1.png$
+stp(client): sent: $size:1024$
+stp(client): sent: $type:mov$
+stp(client): sent: <configuration_complete>
+stp(client): received: #30:BAD_CONFIGURATION#
+stp(client): connection shutdown
+stp(client): socket closed
 
 End of task9 Testing
 ----------------------------------------
 ----------------------------------------
 Start of task10 Testing
 
+stp(client): socket created
+stp(client): sent: $type:text$
+stp(client): sent: $size:607$
+stp(client): sent: $name:sample1.txt$
+stp(client): sent: <configuration_complete>
+stp(client): received: <configuration_approved>
+stp(client): uploading ...
+stp(client): sent: b'Utilitatis causa amicitia est quaesita.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Collatio igitur ista te nihil i'
+stp(client): sent: b'uvat. Honesta oratio, Socratica, Platonis etiam. Primum in nostrane potestate est, quid meminerimus? Duo Reges: constructio inte'
+stp(client): sent: b'rrete. Quid, si etiam iucunda memoria est praeteritorum malorum? Si quidem, inquit, tollerem, sed relinquo. An nisi populari fam'
+stp(client): sent: b'a?\n\nQuamquam id quidem licebit iis existimare, qui legerint. Summum a vobis bonum voluptas dicitur. At hoc in eo M. Refert tamen'
+stp(client): sent: b', quo modo. Quid sequatur, quid repugnet, vident. Iam id ipsum absurdum, maximum malum neglegi.'
+stp(client): uploading complete
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $name:sample2.html$
+stp(client): sent: $type:text$
+stp(client): sent: $size:428$
+stp(client): sent: <configuration_complete>
+stp(client): received: <configuration_approved>
+stp(client): uploading ...
+stp(client): sent: b'<!DOCTYPE html>\n\n<html>\n<head>\n  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n  <title>Spoon-Knife</titl'
+stp(client): sent: b'e>\n  <LINK href="styles.css" rel="stylesheet" type="text/css">\n</head>\n\n<body>\n\n<img src="forkit.gif" id="octocat" alt="" />\n\n<!'
+stp(client): sent: b'-- This is a sample html file -->\n<p>\n  Network Programming and Applications\n</p>\n<p>\n  Princess Sumaya University of Technology'
+stp(client): sent: b'\n</p>\n\n</body>\n</html>'
+stp(client): uploading complete
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $name:sample3.rtf$
+stp(client): sent: $type:text$
+stp(client): sent: $size:42859$
+stp(client): sent: <configuration_complete>
+stp(client): received: <configuration_approved>
+stp(client): uploading ...
+stp(client): sent: b'{\\rtf1\\adeflang1025\\ansi\\ansicpg1252\\uc1\\adeff31507\\deff0\\stshfdbch31506\\stshfloch31506\\stshfhich31506\\stshfbi31507\\deflang4105\\'
+stp(client): sent: b'deflangfe4105\\themelang4105\\themelangfe0\\themelangcs1025{\\fonttbl{\\f1\\fbidi \\fswiss\\fcharset0\\fprq2{\\*\\panose 020b06040202020202'
+stp(client): sent: b'04}Arial;}{\\f34\\fbidi \\froman\\fcharset0\\fprq2{\\*\\panose 02040503050406030204}Cambria Math;}\n{\\f37\\fbidi \\fswiss\\fcharset0\\fprq2{'
+stp(client): sent: b'\\*\\panose 020f0502020204030204}Calibri;}{\\flomajor\\f31500\\fbidi \\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New'
+stp(client): sent: b' Roman;}\n{\\fdbmajor\\f31501\\fbidi \\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New Roman;}{\\fhimajor\\f31502\\fbidi'
+stp(client): sent: b' \\fswiss\\fcharset0\\fprq2{\\*\\panose 020f0302020204030204}Calibri Light;}\n{\\fbimajor\\f31503\\fbidi \\froman\\fcharset0\\fprq2{\\*\\panos'
+stp(client): sent: b'e 02020603050405020304}Times New Roman;}{\\flominor\\f31504\\fbidi \\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New'
+stp(client): sent: b' Roman;}\n{\\fdbminor\\f31505\\fbidi \\froman\\fcharset0\\fprq2{\\*\\panose 02020603050405020304}Times New Roman;}{\\fhiminor\\f31506\\fbidi'
+stp(client): sent: b' \\fswiss\\fcharset0\\fprq2{\\*\\panose 020f0502020204030204}Calibri;}\n{\\fbiminor\\f31507\\fbidi \\fswiss\\fcharset0\\fprq2{\\*\\panose 020b'
+stp(client): sent: b'0604020202020204}Arial;}{\\f1312\\fbidi \\fswiss\\fcharset238\\fprq2 Arial CE;}{\\f1313\\fbidi \\fswiss\\fcharset204\\fprq2 Arial Cyr;}{\\f'
+stp(client): sent: b'1315\\fbidi \\fswiss\\fcharset161\\fprq2 Arial Greek;}\n{\\f1316\\fbidi \\fswiss\\fcharset162\\fprq2 Arial Tur;}{\\f1317\\fbidi \\fswiss\\fcha'
+stp(client): sent: b'rset177\\fprq2 Arial (Hebrew);}{\\f1318\\fbidi \\fswiss\\fcharset178\\fprq2 Arial (Arabic);}{\\f1319\\fbidi \\fswiss\\fcharset186\\fprq2 Ar'
+stp(client): sent: b'ial Baltic;}\n{\\f1320\\fbidi \\fswiss\\fcharset163\\fprq2 Arial (Vietnamese);}{\\f1642\\fbidi \\froman\\fcharset238\\fprq2 Cambria Math CE'
+stp(client): sent: b';}{\\f1643\\fbidi \\froman\\fcharset204\\fprq2 Cambria Math Cyr;}{\\f1645\\fbidi \\froman\\fcharset161\\fprq2 Cambria Math Greek;}\n{\\f1646'
+stp(client): sent: b'\\fbidi \\froman\\fcharset162\\fprq2 Cambria Math Tur;}{\\f1649\\fbidi \\froman\\fcharset186\\fprq2 Cambria Math Baltic;}{\\f1650\\fbidi \\f'
+stp(client): sent: b'roman\\fcharset163\\fprq2 Cambria Math (Vietnamese);}{\\f1672\\fbidi \\fswiss\\fcharset238\\fprq2 Calibri CE;}\n{\\f1673\\fbidi \\fswiss\\fc'
+stp(client): sent: b'harset204\\fprq2 Calibri Cyr;}{\\f1675\\fbidi \\fswiss\\fcharset161\\fprq2 Calibri Greek;}{\\f1676\\fbidi \\fswiss\\fcharset162\\fprq2 Cali'
+stp(client): sent: b'bri Tur;}{\\f1677\\fbidi \\fswiss\\fcharset177\\fprq2 Calibri (Hebrew);}\n{\\f1678\\fbidi \\fswiss\\fcharset178\\fprq2 Calibri (Arabic);}{\\'
+stp(client): sent: b'f1679\\fbidi \\fswiss\\fcharset186\\fprq2 Calibri Baltic;}{\\f1680\\fbidi \\fswiss\\fcharset163\\fprq2 Calibri (Vietnamese);}{\\flomajor\\f'
+stp(client): sent: b'31508\\fbidi \\froman\\fcharset238\\fprq2 Times New Roman CE;}\n{\\flomajor\\f31509\\fbidi \\froman\\fcharset204\\fprq2 Times New Roman Cyr'
+stp(client): sent: b';}{\\flomajor\\f31511\\fbidi \\froman\\fcharset161\\fprq2 Times New Roman Greek;}{\\flomajor\\f31512\\fbidi \\froman\\fcharset162\\fprq2 Tim'
+stp(client): sent: b'es New Roman Tur;}\n{\\flomajor\\f31513\\fbidi \\froman\\fcharset177\\fprq2 Times New Roman (Hebrew);}{\\flomajor\\f31514\\fbidi \\froman\\f'
+stp(client): sent: b'charset178\\fprq2 Times New Roman (Arabic);}{\\flomajor\\f31515\\fbidi \\froman\\fcharset186\\fprq2 Times New Roman Baltic;}\n{\\flomajor'
+stp(client): sent: b'\\f31516\\fbidi \\froman\\fcharset163\\fprq2 Times New Roman (Vietnamese);}{\\fdbmajor\\f31518\\fbidi \\froman\\fcharset238\\fprq2 Times Ne'
+stp(client): sent: b'w Roman CE;}{\\fdbmajor\\f31519\\fbidi \\froman\\fcharset204\\fprq2 Times New Roman Cyr;}\n{\\fdbmajor\\f31521\\fbidi \\froman\\fcharset161\\'
+stp(client): sent: b'fprq2 Times New Roman Greek;}{\\fdbmajor\\f31522\\fbidi \\froman\\fcharset162\\fprq2 Times New Roman Tur;}{\\fdbmajor\\f31523\\fbidi \\fro'
+stp(client): sent: b'man\\fcharset177\\fprq2 Times New Roman (Hebrew);}\n{\\fdbmajor\\f31524\\fbidi \\froman\\fcharset178\\fprq2 Times New Roman (Arabic);}{\\f'
+stp(client): sent: b'dbmajor\\f31525\\fbidi \\froman\\fcharset186\\fprq2 Times New Roman Baltic;}{\\fdbmajor\\f31526\\fbidi \\froman\\fcharset163\\fprq2 Times N'
+stp(client): sent: b'ew Roman (Vietnamese);}\n{\\fhimajor\\f31528\\fbidi \\fswiss\\fcharset238\\fprq2 Calibri Light CE;}{\\fhimajor\\f31529\\fbidi \\fswiss\\fcha'
+stp(client): sent: b'rset204\\fprq2 Calibri Light Cyr;}{\\fhimajor\\f31531\\fbidi \\fswiss\\fcharset161\\fprq2 Calibri Light Greek;}\n{\\fhimajor\\f31532\\fbidi'
+stp(client): sent: b' \\fswiss\\fcharset162\\fprq2 Calibri Light Tur;}{\\fhimajor\\f31533\\fbidi \\fswiss\\fcharset177\\fprq2 Calibri Light (Hebrew);}{\\fhimaj'
+stp(client): sent: b'or\\f31534\\fbidi \\fswiss\\fcharset178\\fprq2 Calibri Light (Arabic);}\n{\\fhimajor\\f31535\\fbidi \\fswiss\\fcharset186\\fprq2 Calibri Lig'
+stp(client): sent: b'ht Baltic;}{\\fhimajor\\f31536\\fbidi \\fswiss\\fcharset163\\fprq2 Calibri Light (Vietnamese);}{\\fbimajor\\f31538\\fbidi \\froman\\fcharse'
+stp(client): sent: b't238\\fprq2 Times New Roman CE;}\n{\\fbimajor\\f31539\\fbidi \\froman\\fcharset204\\fprq2 Times New Roman Cyr;}{\\fbimajor\\f31541\\fbidi \\'
+stp(client): sent: b'froman\\fcharset161\\fprq2 Times New Roman Greek;}{\\fbimajor\\f31542\\fbidi \\froman\\fcharset162\\fprq2 Times New Roman Tur;}\n{\\fbimaj'
+stp(client): sent: b'or\\f31543\\fbidi \\froman\\fcharset177\\fprq2 Times New Roman (Hebrew);}{\\fbimajor\\f31544\\fbidi \\froman\\fcharset178\\fprq2 Times New '
+stp(client): sent: b'Roman (Arabic);}{\\fbimajor\\f31545\\fbidi \\froman\\fcharset186\\fprq2 Times New Roman Baltic;}\n{\\fbimajor\\f31546\\fbidi \\froman\\fchar'
+stp(client): sent: b'set163\\fprq2 Times New Roman (Vietnamese);}{\\flominor\\f31548\\fbidi \\froman\\fcharset238\\fprq2 Times New Roman CE;}{\\flominor\\f315'
+stp(client): sent: b'49\\fbidi \\froman\\fcharset204\\fprq2 Times New Roman Cyr;}\n{\\flominor\\f31551\\fbidi \\froman\\fcharset161\\fprq2 Times New Roman Greek'
+stp(client): sent: b';}{\\flominor\\f31552\\fbidi \\froman\\fcharset162\\fprq2 Times New Roman Tur;}{\\flominor\\f31553\\fbidi \\froman\\fcharset177\\fprq2 Times'
+stp(client): sent: b' New Roman (Hebrew);}\n{\\flominor\\f31554\\fbidi \\froman\\fcharset178\\fprq2 Times New Roman (Arabic);}{\\flominor\\f31555\\fbidi \\froma'
+stp(client): sent: b'n\\fcharset186\\fprq2 Times New Roman Baltic;}{\\flominor\\f31556\\fbidi \\froman\\fcharset163\\fprq2 Times New Roman (Vietnamese);}\n{\\f'
+stp(client): sent: b'dbminor\\f31558\\fbidi \\froman\\fcharset238\\fprq2 Times New Roman CE;}{\\fdbminor\\f31559\\fbidi \\froman\\fcharset204\\fprq2 Times New R'
+stp(client): sent: b'oman Cyr;}{\\fdbminor\\f31561\\fbidi \\froman\\fcharset161\\fprq2 Times New Roman Greek;}\n{\\fdbminor\\f31562\\fbidi \\froman\\fcharset162\\'
+stp(client): sent: b'fprq2 Times New Roman Tur;}{\\fdbminor\\f31563\\fbidi \\froman\\fcharset177\\fprq2 Times New Roman (Hebrew);}{\\fdbminor\\f31564\\fbidi \\'
+stp(client): sent: b'froman\\fcharset178\\fprq2 Times New Roman (Arabic);}\n{\\fdbminor\\f31565\\fbidi \\froman\\fcharset186\\fprq2 Times New Roman Baltic;}{\\'
+stp(client): sent: b'fdbminor\\f31566\\fbidi \\froman\\fcharset163\\fprq2 Times New Roman (Vietnamese);}{\\fhiminor\\f31568\\fbidi \\fswiss\\fcharset238\\fprq2 '
+stp(client): sent: b'Calibri CE;}\n{\\fhiminor\\f31569\\fbidi \\fswiss\\fcharset204\\fprq2 Calibri Cyr;}{\\fhiminor\\f31571\\fbidi \\fswiss\\fcharset161\\fprq2 Ca'
+stp(client): sent: b'libri Greek;}{\\fhiminor\\f31572\\fbidi \\fswiss\\fcharset162\\fprq2 Calibri Tur;}\n{\\fhiminor\\f31573\\fbidi \\fswiss\\fcharset177\\fprq2 C'
+stp(client): sent: b'alibri (Hebrew);}{\\fhiminor\\f31574\\fbidi \\fswiss\\fcharset178\\fprq2 Calibri (Arabic);}{\\fhiminor\\f31575\\fbidi \\fswiss\\fcharset186'
+stp(client): sent: b'\\fprq2 Calibri Baltic;}\n{\\fhiminor\\f31576\\fbidi \\fswiss\\fcharset163\\fprq2 Calibri (Vietnamese);}{\\fbiminor\\f31578\\fbidi \\fswiss\\'
+stp(client): sent: b'fcharset238\\fprq2 Arial CE;}{\\fbiminor\\f31579\\fbidi \\fswiss\\fcharset204\\fprq2 Arial Cyr;}\n{\\fbiminor\\f31581\\fbidi \\fswiss\\fchars'
+stp(client): sent: b'et161\\fprq2 Arial Greek;}{\\fbiminor\\f31582\\fbidi \\fswiss\\fcharset162\\fprq2 Arial Tur;}{\\fbiminor\\f31583\\fbidi \\fswiss\\fcharset17'
+stp(client): sent: b'7\\fprq2 Arial (Hebrew);}\n{\\fbiminor\\f31584\\fbidi \\fswiss\\fcharset178\\fprq2 Arial (Arabic);}{\\fbiminor\\f31585\\fbidi \\fswiss\\fchar'
+stp(client): sent: b'set186\\fprq2 Arial Baltic;}{\\fbiminor\\f31586\\fbidi \\fswiss\\fcharset163\\fprq2 Arial (Vietnamese);}\n{\\f1302\\fbidi \\froman\\fcharset'
+stp(client): sent: b'238\\fprq2 Times New Roman CE;}{\\f1303\\fbidi \\froman\\fcharset204\\fprq2 Times New Roman Cyr;}{\\f1305\\fbidi \\froman\\fcharset161\\fpr'
+stp(client): sent: b'q2 Times New Roman Greek;}{\\f1306\\fbidi \\froman\\fcharset162\\fprq2 Times New Roman Tur;}\n{\\f1307\\fbidi \\froman\\fcharset177\\fprq2 '
+stp(client): sent: b'Times New Roman (Hebrew);}{\\f1308\\fbidi \\froman\\fcharset178\\fprq2 Times New Roman (Arabic);}{\\f1309\\fbidi \\froman\\fcharset186\\fp'
+stp(client): sent: b'rq2 Times New Roman Baltic;}\n{\\f1310\\fbidi \\froman\\fcharset163\\fprq2 Times New Roman (Vietnamese);}}{\\colortbl;\\red0\\green0\\blue'
+stp(client): sent: b'0;\\red0\\green0\\blue255;\\red0\\green255\\blue255;\\red0\\green255\\blue0;\\red255\\green0\\blue255;\\red255\\green0\\blue0;\\red255\\green255\\'
+stp(client): sent: b'blue0;\n\\red255\\green255\\blue255;\\red0\\green0\\blue128;\\red0\\green128\\blue128;\\red0\\green128\\blue0;\\red128\\green0\\blue128;\\red128\\'
+stp(client): sent: b'green0\\blue0;\\red128\\green128\\blue0;\\red128\\green128\\blue128;\\red192\\green192\\blue192;\\red0\\green0\\blue0;\\red0\\green0\\blue0;}\n{\\'
+stp(client): sent: b'*\\defchp \\f31506\\fs22\\lang4105\\langfe1033\\kerning2\\langfenp1033 }{\\*\\defpap \\ql \\li0\\ri0\\sa160\\sl259\\slmult1\\widctlpar\\wrapdefau'
+stp(client): sent: b'lt\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 }\\noqfpromote {\\stylesheet{\\ql \\li0\\ri0\\sa160\\sl259\\slmult1\n\\widctlpar\\wra'
+stp(client): sent: b'pdefault\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \\rtlch\\fcs1 \\af31507\\afs22\\alang1025 \\ltrch\\fcs0 \\f31506\\fs22\\lang41'
+stp(client): sent: b'05\\langfe1033\\kerning2\\cgrid\\langnp4105\\langfenp1033 \\snext0 \\sqformat \\spriority0 Normal;}{\\*\\cs10 \\additive \n\\ssemihidden \\sun'
+stp(client): sent: b'hideused \\spriority1 Default Paragraph Font;}{\\*\\ts11\\tsrowd\\trftsWidthB3\\trpaddl108\\trpaddr108\\trpaddfl3\\trpaddft3\\trpaddfb3\\tr'
+stp(client): sent: b'paddfr3\\tblind0\\tblindtype3\\tsvertalt\\tsbrdrt\\tsbrdrl\\tsbrdrb\\tsbrdrr\\tsbrdrdgl\\tsbrdrdgr\\tsbrdrh\\tsbrdrv \n\\ql \\li0\\ri0\\sa160\\sl'
+stp(client): sent: b'259\\slmult1\\widctlpar\\wrapdefault\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap0 \\rtlch\\fcs1 \\af31507\\afs22\\alang1025 \\ltrch'
+stp(client): sent: b'\\fcs0 \\f31506\\fs22\\lang4105\\langfe1033\\kerning2\\cgrid\\langnp4105\\langfenp1033 \n\\snext11 \\ssemihidden \\sunhideused Normal Table;}'
+stp(client): sent: b'}{\\*\\rsidtbl \\rsid1254363\\rsid7621204\\rsid11889068}{\\mmathPr\\mmathFont34\\mbrkBin0\\mbrkBinSub0\\msmallFrac0\\mdispDef1\\mlMargin0\\mr'
+stp(client): sent: b'Margin0\\mdefJc1\\mwrapIndent1440\\mintLim0\\mnaryLim1}{\\info\n{\\author Qutaiba Albluwi}{\\operator Qutaiba Albluwi}{\\creatim\\yr2023\\m'
+stp(client): sent: b'o11\\dy15\\hr21\\min33}{\\revtim\\yr2023\\mo11\\dy15\\hr21\\min34}{\\version1}{\\edmins1}{\\nofpages1}{\\nofwords0}{\\nofchars5}{\\nofcharsws5}'
+stp(client): sent: b'{\\vern83}}{\\*\\xmlnstbl {\\xmlns1 http://schemas.microsoft.\ncom/office/word/2003/wordml}}\\paperw12240\\paperh15840\\margl1440\\margr1'
+stp(client): sent: b'440\\margt1440\\margb1440\\gutter0\\ltrsect \n\\widowctrl\\ftnbj\\aenddoc\\trackmoves0\\trackformatting1\\donotembedsysfont1\\relyonvml0\\don'
+stp(client): sent: b'otembedlingdata0\\grfdocevents0\\validatexml1\\showplaceholdtext0\\ignoremixedcontent0\\saveinvalidxml0\\showxmlerrors1\\noxlattoyen\n\\e'
+stp(client): sent: b'xpshrtn\\noultrlspc\\dntblnsbdb\\nospaceforul\\formshade\\horzdoc\\dgmargin\\dghspace180\\dgvspace180\\dghorigin1440\\dgvorigin1440\\dghsho'
+stp(client): sent: b'w1\\dgvshow1\n\\jexpand\\viewkind1\\viewscale100\\pgbrdrhead\\pgbrdrfoot\\splytwnine\\ftnlytwnine\\htmautsp\\nolnhtadjtbl\\useltbaln\\alntbli'
+stp(client): sent: b'nd\\lytcalctblwd\\lyttblrtgr\\lnbrkrule\\nobrkwrptbl\\snaptogridincell\\allowfieldendsel\\wrppunct\n\\asianbrkrule\\rsidroot11889068\\newtb'
+stp(client): sent: b'lstyruls\\nogrowautofit\\usenormstyforlist\\noindnmbrts\\felnbrelev\\nocxsptable\\indrlsweleven\\noafcnsttbl\\afelev\\utinl\\hwelev\\spltpg'
+stp(client): sent: b'par\\notcvasp\\notbrkcnstfrctbl\\notvatxbx\\krnprsnet\\cachedcolbal \\nouicompat \\fet0\n{\\*\\wgrffmtfilter 2450}\\nofeaturethrottle1\\ilfo'
+stp(client): sent: b'macatclnup0\\ltrpar \\sectd \\ltrsect\\linex0\\headery708\\footery708\\colsx708\\endnhere\\sectlinegrid360\\sectdefaultcl\\sftnbj {\\*\\pnsec'
+stp(client): sent: b'lvl1\\pnucrm\\pnqc\\pnstart1\\pnindent720\\pnhang {\\pntxta .}}{\\*\\pnseclvl2\n\\pnucltr\\pnqc\\pnstart1\\pnindent720\\pnhang {\\pntxta .}}{\\*'
+stp(client): sent: b'\\pnseclvl3\\pndec\\pnqc\\pnstart1\\pnindent720\\pnhang {\\pntxta .}}{\\*\\pnseclvl4\\pnlcltr\\pnqc\\pnstart1\\pnindent720\\pnhang {\\pntxta )}'
+stp(client): sent: b'}{\\*\\pnseclvl5\\pndec\\pnqc\\pnstart1\\pnindent720\\pnhang {\\pntxtb (}\n{\\pntxta )}}{\\*\\pnseclvl6\\pnlcltr\\pnqc\\pnstart1\\pnindent720\\pn'
+stp(client): sent: b'hang {\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl7\\pnlcrm\\pnqc\\pnstart1\\pnindent720\\pnhang {\\pntxtb (}{\\pntxta )}}{\\*\\pnseclvl8\\pnlcltr\\p'
+stp(client): sent: b'nqc\\pnstart1\\pnindent720\\pnhang {\\pntxtb (}{\\pntxta )}}\n{\\*\\pnseclvl9\\pnlcrm\\pnqc\\pnstart1\\pnindent720\\pnhang {\\pntxtb (}{\\pntxt'
+stp(client): sent: b'a )}}\\pard\\plain \\ltrpar\\ql \\li0\\ri0\\sa160\\sl259\\slmult1\\widctlpar\\wrapdefault\\aspalpha\\aspnum\\faauto\\adjustright\\rin0\\lin0\\itap'
+stp(client): sent: b'0 \\rtlch\\fcs1 \\af31507\\afs22\\alang1025 \\ltrch\\fcs0 \n\\f31506\\fs22\\lang4105\\langfe1033\\kerning2\\cgrid\\langnp4105\\langfenp1033 {\\rt'
+stp(client): sent: b'lch\\fcs1 \\af31507 \\ltrch\\fcs0 \\insrsid11889068 Hello}{\\rtlch\\fcs1 \\af31507 \\ltrch\\fcs0 \\insrsid7621204 \n\\par }{\\*\\themedata 504b'
+stp(client): sent: b'030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a\n9cb'
+stp(client): sent: b'2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad\n56'
+stp(client): sent: b'89811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6\nb'
+stp(client): sent: b'01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0\n'
+stp(client): sent: b'0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6'
+stp(client): sent: b'\na7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4'
+stp(client): sent: b'f\nc7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b63095'
+stp(client): sent: b'12\n0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e'
+stp(client): sent: b'462\na1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f74'
+stp(client): sent: b'6865\n6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf1'
+stp(client): sent: b'4d59b\n4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb924'
+stp(client): sent: b'6a3d8b\n4757e8d3f729e245eb2b260a0238fd010000ffff0300504b030414000600080000002100b6f4679893070000c9200000160000007468656d652f74686'
+stp(client): sent: b'56d652f\n7468656d65312e786d6cec59cd8b1bc915bf07f23f347d97f5d5ad8fc1f2a24fcfda33b6b164873dd648a5eef2547789aad28cc56208de532e81c026'
+stp(client): sent: b'e49085bd\ned21842cecc22eb9e48f31d8249b3f22afaa5bdd5552c99e191c3061463074977eefd5afde7bf5de53d5ddcf5e26d4bbc05c1096f6fcfa9d9aefe17'
+stp(client): sent: b'4ce16248d\n7afeb3d9a4d2f13d2151ba4094a5b8e76fb0f03fbbf7eb5fdd454732c609f6403e1547a8e7c752ae8eaa5531876124eeb0154ee1bb25e30992f0ca'
+stp(client): sent: b'a3ea82a34b\nd09bd06aa3566b55134452df4b51026a1f2f97648ebd9952e9dfdb2a1f53784da5500373caa74a35b6243476715e5708b11143cabd0b447b3eccb'
+stp(client): sent: b'3609733fc52\nfa1e4542c2173dbfa6fffceabdbb5574940b517940d6909be8bf5c2e17589c37f49c3c3a2b260d823068f50bfd1a40e53e6edc1eb7c6ad429f06'
+stp(client): sent: b'a0f91c569a71\nb175b61bc320c71aa0ecd1a17bd41e35eb16ded0dfdce3dc0fd5c7c26b50a63fd8c34f2643b0a285d7a00c1feee1c3417730b2f56b50866fede'
+stp(client): sent: b'1dbb5fe28685b\nfa3528a6243ddf43d7c25673b85d6d0159327aec8477c360d26ee4ca4b144443115d6a8a254be5a1584bd00bc6270050408a24493db959e125'
+stp(client): sent: b'9a43140f112567\n9c7827248a21f056286502866b8ddaa4d684ffea13e827ed5174849121ad780113b137a4f87862cec94af6fc07a0d537206f7ffef9cdeb1fd'
+stp(client): sent: b'fbcfee9cd575fbd\n79fdf77c6eadca923b466964cafdf2dd1ffef3cd6fbd7ffff0ed2f5fff319b7a172f4cfcbbbffdeedd3ffef93ef5b0e2d2146ffff4fdbb1f'
+stp(client): sent: b'bf7ffbe7dfffebaf\n5f3bb4f7393a33e1339260e13dc297de5396c0021dfcf119bf9ec42c46c494e8a791402952b338f48f656ca11f6d10450edc00db767cce2'
+stp(client): sent: b'1d5b880f7d72f2cc2\nd398af2571687c182716f094313a60dc6985876a2ec3ccb3751ab927e76b13f714a10bd7dc43945a5e1eaf579063894be530c616cd2714'
+stp(client): sent: b'a5124538c5d253dfb1\n738c1dabfb8210cbaea764ce99604be97d41bc01224e93ccc899154da5d03149c02f1b1741f0b7659bd3e7de8051d7aa47f8c246c2de4'
+stp(client): sent: b'0d4417e86a965c6fb68\n2d51e252394309350d7e8264ec2239ddf0b9891b0b099e8e3065de78818570c93ce6b05ec3e90f21cdb8dd7e4a37898de4929cbb749e'
+stp(client): sent: b'20c64ce4889d0f6394ac\n5cd829496313fbb938871045de13265df05366ef10f50e7e40e941773f27d872f787b3c133c8b026a53240d4376beef0e57dccacf89'
+stp(client): sent: b'd6ee8126157aae9f3c44a\nb17d4e9cd131584756689f604cd1255a60ec3dfbdcc160c05696cd4bd20f62c82ac7d815580f901dabea3dc5027a25d5dcece7c913'
+stp(client): sent: b'22ac909de2881de073bad9\n493c1b9426881fd2fc08bc6eda7c0ca52e7105c0633a3f37818f08f480102f4ea33c16a0c308ee835a9fc4c82a60ea5db8e375c32'
+stp(client): sent: b'dff5d658fc1be7c61d1b8c2\nbe04197c6d1948eca6cc7b6d3343d49aa00c9819822ec3956e41c4727f29a28aab165b3be596f6a62ddd00dd91d5f42424fd6007'
+stp(client): sent: b'b4d3fb84ffbbde073a8cb77f\nf9c6b10f3e4ebfe3566c25ab6b763a8792c9f14e7f7308b7dbd50c195f904fbfa919a175fa04431dd9cf58b73dcd6d4fe3ffdff'
+stp(client): sent: b'73487f6f36d2773a8dfb8ed64\n7ce8306e3b99fc70e5e3743265f3027d8d3af0c80e7af4b14f72f0d46749289dca0dc527421ffc08f83db398c0a092d3279eb8'
+stp(client): sent: b'38055cc5f0a8ca1c4c60e1228e\nb48cc799fc0d91f134462b381daafb4a492472d591f0564cc0a1911e76ea5678ba4e4ed9223becacd7d5c16656590592e5782'
+stp(client): sent: b'd2cc6e1a04a66e856bb3cc02bd4\n6bb6913e68dd1250b2d721614c6693683a48b4b783ca48fa58178ce620a157f65158741d2c3a4afdd6557b2c805ae115f8c1'
+stp(client): sent: b'edc1cff49e1f06200242701e07cd\nf942f92973f5d6bbda991fd3d3878c69450034d8db08283ddd555c0f2e4fad2e0bb52b78da2261849b4d425b46377822869'
+stp(client): sent: b'fc17974aad1abd0b8aeafbba54b2d\n7aca147a3e08ad9246bbf33e1637f535c8ede6069a9a9982a6de65cf6f35430899395af5fc251c1ac363b282d811ea3717'
+stp(client): sent: b'a211dcbccc25cf36fc4d32cb8a0b39\n4222ce0cae934e960d122231f728497abe5a7ee1069aea1ca2b9d51b90103e59725d482b9f1a3970baed64bc5ce2b934d'
+stp(client): sent: b'd6e8c284b67af90e1b35ce1fc568bdf\n1cac24d91adc3d8d1797de195df3a708422c6cd795011744c0dd413db3e682c0655891c8caf8db294c79da356fa3740c'
+stp(client): sent: b'65e388ae62945714339967709dca0b3a\nfaadb081f196af190c6a98242f8467912ab0a651ad6a5a548d8cc3c1aafb6121653923699635d3ca2aaa6abab39835c'
+stp(client): sent: b'3b60cecd8f26645de60b53531e434b3c2\n67a97b37e576b7b96ea74f28aa0418bcb09fa3ea5ea12018d4cac92c6a8af17e1a56393b1fb56bc776811fa0769522'
+stp(client): sent: b'6164fdd656ed8edd8a1ae19c0e066f54f9\n416e376a6168b9ed2bb5a5f5adb979b1cdce5e40f2184197bba6526857c2c92e47d0104d754f92a50dd8222f65be3'
+stp(client): sent: b'5e0c95b73d2f3bfac85fd60d80887955a27\n1c57826650ab74c27eb3d20fc3667d1cd66ba341e31514161927f530bbb19fc00506dde4f7f67a7cefee3ed9ded1'
+stp(client): sent: b'dc99b3a4caf4dd7c5513d777f7f5c6e1bb7b\n8f40d2f9b2d598749bdd41abd26df627956034e854bac3d6a0326a0ddba3c9681876ba9357be77a1c141bf390c5'
+stp(client): sent: b'ae34ea5551f0e2b41aba6e877ba9576d068f4\n8376bf330efaaff23606569ea58fdc16605ecdebde7f010000ffff0300504b0304140006000800000021000dd1'
+stp(client): sent: b'909fb60000001b010000270000007468656d65\n2f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f7827'
+stp(client): sent: b'7086f6fd3ba109126dd88d0add40384e4350d36\n3f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d9'
+stp(client): sent: b'3b64b060828e6f37ed1567914b284d262452282e\n3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001'
+stp(client): sent: b'996509affb3fd381a89672f1f165dfe514173d985\n0528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0f'
+stp(client): sent: b'bfff0000001c020000130000000000000000000000\n0000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d'
+stp(client): sent: b'6a7e7c0000000360100000b00000000000000000000\n000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b79961683000000'
+stp(client): sent: b'8a0000001c0000000000000000000000000019020000\n7468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d00140006000800000'
+stp(client): sent: b'02100b6f4679893070000c92000001600000000000000\n000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006'
+stp(client): sent: b'000800000021000dd1909fb60000001b01000027000000\n000000000000000000009d0a00007468656d652f7468656d652f5f72656c732f7468656d654d616e6'
+stp(client): sent: b'16765722e786d6c2e72656c73504b050600000000050005005d010000980b00000000}\n{\\*\\colorschememapping 3c3f786d6c2076657273696f6e3d22312e'
+stp(client): sent: b'302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d\n617020786d6c6e733a613d22687474703'
+stp(client): sent: b'a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169\n6e22206267313d226c74312220747831'
+stp(client): sent: b'3d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363\n656e74323d22616363656e743222206'
+stp(client): sent: b'16363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616'
+stp(client): sent: b'363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}\n{\\*\\latentstyles\\lsdstimax376\\lsdlockedde'
+stp(client): sent: b'f0\\lsdsemihiddendef0\\lsdunhideuseddef0\\lsdqformatdef0\\lsdprioritydef99{\\lsdlockedexcept \\lsdqformat1 \\lsdpriority0 \\lsdlocked0 N'
+stp(client): sent: b'ormal;\\lsdqformat1 \\lsdpriority9 \\lsdlocked0 heading 1;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdqformat1 \\lsdpriority9 \\lsdlocked0 h'
+stp(client): sent: b'eading 2;\\lsdsemihidden1 \\lsdunhideused1 \\lsdqformat1 \\lsdpriority9 \\lsdlocked0 heading 3;\\lsdsemihidden1 \\lsdunhideused1 \\lsdqf'
+stp(client): sent: b'ormat1 \\lsdpriority9 \\lsdlocked0 heading 4;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdqformat1 \\lsdpriority9 \\lsdlocked0 heading 5;\\ls'
+stp(client): sent: b'dsemihidden1 \\lsdunhideused1 \\lsdqformat1 \\lsdpriority9 \\lsdlocked0 heading 6;\\lsdsemihidden1 \\lsdunhideused1 \\lsdqformat1 \\lsdp'
+stp(client): sent: b'riority9 \\lsdlocked0 heading 7;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdqformat1 \\lsdpriority9 \\lsdlocked0 heading 8;\\lsdsemihidden1'
+stp(client): sent: b' \\lsdunhideused1 \\lsdqformat1 \\lsdpriority9 \\lsdlocked0 heading 9;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 index 1;\n\\lsdsemih'
+stp(client): sent: b'idden1 \\lsdunhideused1 \\lsdlocked0 index 2;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 index 3;\\lsdsemihidden1 \\lsdunhideused1 \\'
+stp(client): sent: b'lsdlocked0 index 4;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 index 5;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 index 6;\\lsd'
+stp(client): sent: b'semihidden1 \\lsdunhideused1 \\lsdlocked0 index 7;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 index 8;\\lsdsemihidden1 \\lsdunhideus'
+stp(client): sent: b'ed1 \\lsdlocked0 index 9;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdpriority39 \\lsdlocked0 toc 1;\\lsdsemihidden1 \\lsdunhideused1 \\lsdpr'
+stp(client): sent: b'iority39 \\lsdlocked0 toc 2;\\lsdsemihidden1 \\lsdunhideused1 \\lsdpriority39 \\lsdlocked0 toc 3;\n\\lsdsemihidden1 \\lsdunhideused1 \\ls'
+stp(client): sent: b'dpriority39 \\lsdlocked0 toc 4;\\lsdsemihidden1 \\lsdunhideused1 \\lsdpriority39 \\lsdlocked0 toc 5;\\lsdsemihidden1 \\lsdunhideused1 \\'
+stp(client): sent: b'lsdpriority39 \\lsdlocked0 toc 6;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdpriority39 \\lsdlocked0 toc 7;\\lsdsemihidden1 \\lsdunhideused'
+stp(client): sent: b'1 \\lsdpriority39 \\lsdlocked0 toc 8;\\lsdsemihidden1 \\lsdunhideused1 \\lsdpriority39 \\lsdlocked0 toc 9;\\lsdsemihidden1 \\lsdunhideus'
+stp(client): sent: b'ed1 \\lsdlocked0 Normal Indent;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 footnote text;\\lsdsemihidden1 \\lsdunhideused1 \\lsdloc'
+stp(client): sent: b'ked0 annotation text;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 header;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 footer;\n\\lsd'
+stp(client): sent: b'semihidden1 \\lsdunhideused1 \\lsdlocked0 index heading;\\lsdsemihidden1 \\lsdunhideused1 \\lsdqformat1 \\lsdpriority35 \\lsdlocked0 ca'
+stp(client): sent: b'ption;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 table of figures;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 envelope address'
+stp(client): sent: b';\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 envelope return;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 footnote reference;\\lsd'
+stp(client): sent: b'semihidden1 \\lsdunhideused1 \\lsdlocked0 annotation reference;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 line number;\\lsdsemihi'
+stp(client): sent: b'dden1 \\lsdunhideused1 \\lsdlocked0 page number;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 endnote reference;\\lsdsemihidden1 \\lsd'
+stp(client): sent: b'unhideused1 \\lsdlocked0 endnote text;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 table of authorities;\\lsdsemihidden1 \\lsdunhid'
+stp(client): sent: b'eused1 \\lsdlocked0 macro;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 toa heading;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Lis'
+stp(client): sent: b't;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List Bullet;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List Number;\\lsdsemihidde'
+stp(client): sent: b'n1 \\lsdunhideused1 \\lsdlocked0 List 2;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List 3;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlo'
+stp(client): sent: b'cked0 List 4;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List 5;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List Bullet 2;\\lsdse'
+stp(client): sent: b'mihidden1 \\lsdunhideused1 \\lsdlocked0 List Bullet 3;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List Bullet 4;\\lsdsemihidden1 \\'
+stp(client): sent: b'lsdunhideused1 \\lsdlocked0 List Bullet 5;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List Number 2;\\lsdsemihidden1 \\lsdunhideuse'
+stp(client): sent: b'd1 \\lsdlocked0 List Number 3;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List Number 4;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlock'
+stp(client): sent: b'ed0 List Number 5;\\lsdqformat1 \\lsdpriority10 \\lsdlocked0 Title;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Closing;\n\\lsdsemihid'
+stp(client): sent: b'den1 \\lsdunhideused1 \\lsdlocked0 Signature;\\lsdsemihidden1 \\lsdunhideused1 \\lsdpriority1 \\lsdlocked0 Default Paragraph Font;\\lsd'
+stp(client): sent: b'semihidden1 \\lsdunhideused1 \\lsdlocked0 Body Text;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Body Text Indent;\n\\lsdsemihidden1 '
+stp(client): sent: b'\\lsdunhideused1 \\lsdlocked0 List Continue;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List Continue 2;\\lsdsemihidden1 \\lsdunhide'
+stp(client): sent: b'used1 \\lsdlocked0 List Continue 3;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 List Continue 4;\n\\lsdsemihidden1 \\lsdunhideused1 \\'
+stp(client): sent: b'lsdlocked0 List Continue 5;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Message Header;\\lsdqformat1 \\lsdpriority11 \\lsdlocked0 Su'
+stp(client): sent: b'btitle;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Salutation;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Date;\\lsdsemihidden1 '
+stp(client): sent: b'\\lsdunhideused1 \\lsdlocked0 Body Text First Indent;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Body Text First Indent 2;\\lsdsemi'
+stp(client): sent: b'hidden1 \\lsdunhideused1 \\lsdlocked0 Note Heading;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Body Text 2;\\lsdsemihidden1 \\lsdun'
+stp(client): sent: b'hideused1 \\lsdlocked0 Body Text 3;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Body Text Indent 2;\\lsdsemihidden1 \\lsdunhideused1'
+stp(client): sent: b' \\lsdlocked0 Body Text Indent 3;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Block Text;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlock'
+stp(client): sent: b'ed0 Hyperlink;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 FollowedHyperlink;\\lsdqformat1 \\lsdpriority22 \\lsdlocked0 Strong;\n\\lsd'
+stp(client): sent: b'qformat1 \\lsdpriority20 \\lsdlocked0 Emphasis;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Document Map;\\lsdsemihidden1 \\lsdunhide'
+stp(client): sent: b'used1 \\lsdlocked0 Plain Text;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 E-mail Signature;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdl'
+stp(client): sent: b'ocked0 HTML Top of Form;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 HTML Bottom of Form;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlock'
+stp(client): sent: b'ed0 Normal (Web);\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 HTML Acronym;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 HTML Addr'
+stp(client): sent: b'ess;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 HTML Cite;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 HTML Code;\\lsdsemihidden1 '
+stp(client): sent: b'\\lsdunhideused1 \\lsdlocked0 HTML Definition;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 HTML Keyboard;\\lsdsemihidden1 \\lsdunhid'
+stp(client): sent: b'eused1 \\lsdlocked0 HTML Preformatted;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 HTML Sample;\\lsdsemihidden1 \\lsdunhideused1 \\ls'
+stp(client): sent: b'dlocked0 HTML Typewriter;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 HTML Variable;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 '
+stp(client): sent: b'Normal Table;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 annotation subject;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 No List;'
+stp(client): sent: b'\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Outline List 1;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Outline List 2;\\lsdsemih'
+stp(client): sent: b'idden1 \\lsdunhideused1 \\lsdlocked0 Outline List 3;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Simple 1;\n\\lsdsemihidden1 \\l'
+stp(client): sent: b'sdunhideused1 \\lsdlocked0 Table Simple 2;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Simple 3;\\lsdsemihidden1 \\lsdunhideus'
+stp(client): sent: b'ed1 \\lsdlocked0 Table Classic 1;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Classic 2;\n\\lsdsemihidden1 \\lsdunhideused1 \\ls'
+stp(client): sent: b'dlocked0 Table Classic 3;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Classic 4;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0'
+stp(client): sent: b' Table Colorful 1;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Colorful 2;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Tabl'
+stp(client): sent: b'e Colorful 3;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Columns 1;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Colum'
+stp(client): sent: b'ns 2;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Columns 3;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Columns 4;\\l'
+stp(client): sent: b'sdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Columns 5;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Grid 1;\\lsdsemihidde'
+stp(client): sent: b'n1 \\lsdunhideused1 \\lsdlocked0 Table Grid 2;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Grid 3;\\lsdsemihidden1 \\lsdunhide'
+stp(client): sent: b'used1 \\lsdlocked0 Table Grid 4;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Grid 5;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlock'
+stp(client): sent: b'ed0 Table Grid 6;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Grid 7;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Gri'
+stp(client): sent: b'd 8;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table List 1;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table List 2;\n\\lsdsemih'
+stp(client): sent: b'idden1 \\lsdunhideused1 \\lsdlocked0 Table List 3;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table List 4;\\lsdsemihidden1 \\lsdunh'
+stp(client): sent: b'ideused1 \\lsdlocked0 Table List 5;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table List 6;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsd'
+stp(client): sent: b'locked0 Table List 7;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table List 8;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table '
+stp(client): sent: b'3D effects 1;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table 3D effects 2;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table 3'
+stp(client): sent: b'D effects 3;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Contemporary;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Ele'
+stp(client): sent: b'gant;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Professional;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Subtle 1;'
+stp(client): sent: b'\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Subtle 2;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Web 1;\\lsdsemihidde'
+stp(client): sent: b'n1 \\lsdunhideused1 \\lsdlocked0 Table Web 2;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Web 3;\\lsdsemihidden1 \\lsdunhideus'
+stp(client): sent: b'ed1 \\lsdlocked0 Balloon Text;\\lsdpriority39 \\lsdlocked0 Table Grid;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Table Theme;\\lsds'
+stp(client): sent: b'emihidden1 \\lsdlocked0 Placeholder Text;\n\\lsdqformat1 \\lsdpriority1 \\lsdlocked0 No Spacing;\\lsdpriority60 \\lsdlocked0 Light Shad'
+stp(client): sent: b'ing;\\lsdpriority61 \\lsdlocked0 Light List;\\lsdpriority62 \\lsdlocked0 Light Grid;\\lsdpriority63 \\lsdlocked0 Medium Shading 1;\\lsd'
+stp(client): sent: b'priority64 \\lsdlocked0 Medium Shading 2;\n\\lsdpriority65 \\lsdlocked0 Medium List 1;\\lsdpriority66 \\lsdlocked0 Medium List 2;\\lsdp'
+stp(client): sent: b'riority67 \\lsdlocked0 Medium Grid 1;\\lsdpriority68 \\lsdlocked0 Medium Grid 2;\\lsdpriority69 \\lsdlocked0 Medium Grid 3;\\lsdpriori'
+stp(client): sent: b'ty70 \\lsdlocked0 Dark List;\n\\lsdpriority71 \\lsdlocked0 Colorful Shading;\\lsdpriority72 \\lsdlocked0 Colorful List;\\lsdpriority73 '
+stp(client): sent: b'\\lsdlocked0 Colorful Grid;\\lsdpriority60 \\lsdlocked0 Light Shading Accent 1;\\lsdpriority61 \\lsdlocked0 Light List Accent 1;\n\\lsd'
+stp(client): sent: b'priority62 \\lsdlocked0 Light Grid Accent 1;\\lsdpriority63 \\lsdlocked0 Medium Shading 1 Accent 1;\\lsdpriority64 \\lsdlocked0 Mediu'
+stp(client): sent: b'm Shading 2 Accent 1;\\lsdpriority65 \\lsdlocked0 Medium List 1 Accent 1;\\lsdsemihidden1 \\lsdlocked0 Revision;\n\\lsdqformat1 \\lsdpr'
+stp(client): sent: b'iority34 \\lsdlocked0 List Paragraph;\\lsdqformat1 \\lsdpriority29 \\lsdlocked0 Quote;\\lsdqformat1 \\lsdpriority30 \\lsdlocked0 Intens'
+stp(client): sent: b'e Quote;\\lsdpriority66 \\lsdlocked0 Medium List 2 Accent 1;\\lsdpriority67 \\lsdlocked0 Medium Grid 1 Accent 1;\n\\lsdpriority68 \\lsd'
+stp(client): sent: b'locked0 Medium Grid 2 Accent 1;\\lsdpriority69 \\lsdlocked0 Medium Grid 3 Accent 1;\\lsdpriority70 \\lsdlocked0 Dark List Accent 1;\\'
+stp(client): sent: b'lsdpriority71 \\lsdlocked0 Colorful Shading Accent 1;\\lsdpriority72 \\lsdlocked0 Colorful List Accent 1;\n\\lsdpriority73 \\lsdlocked'
+stp(client): sent: b'0 Colorful Grid Accent 1;\\lsdpriority60 \\lsdlocked0 Light Shading Accent 2;\\lsdpriority61 \\lsdlocked0 Light List Accent 2;\\lsdpr'
+stp(client): sent: b'iority62 \\lsdlocked0 Light Grid Accent 2;\\lsdpriority63 \\lsdlocked0 Medium Shading 1 Accent 2;\n\\lsdpriority64 \\lsdlocked0 Medium'
+stp(client): sent: b' Shading 2 Accent 2;\\lsdpriority65 \\lsdlocked0 Medium List 1 Accent 2;\\lsdpriority66 \\lsdlocked0 Medium List 2 Accent 2;\\lsdprio'
+stp(client): sent: b'rity67 \\lsdlocked0 Medium Grid 1 Accent 2;\\lsdpriority68 \\lsdlocked0 Medium Grid 2 Accent 2;\n\\lsdpriority69 \\lsdlocked0 Medium G'
+stp(client): sent: b'rid 3 Accent 2;\\lsdpriority70 \\lsdlocked0 Dark List Accent 2;\\lsdpriority71 \\lsdlocked0 Colorful Shading Accent 2;\\lsdpriority72'
+stp(client): sent: b' \\lsdlocked0 Colorful List Accent 2;\\lsdpriority73 \\lsdlocked0 Colorful Grid Accent 2;\n\\lsdpriority60 \\lsdlocked0 Light Shading '
+stp(client): sent: b'Accent 3;\\lsdpriority61 \\lsdlocked0 Light List Accent 3;\\lsdpriority62 \\lsdlocked0 Light Grid Accent 3;\\lsdpriority63 \\lsdlocked'
+stp(client): sent: b'0 Medium Shading 1 Accent 3;\\lsdpriority64 \\lsdlocked0 Medium Shading 2 Accent 3;\n\\lsdpriority65 \\lsdlocked0 Medium List 1 Accen'
+stp(client): sent: b't 3;\\lsdpriority66 \\lsdlocked0 Medium List 2 Accent 3;\\lsdpriority67 \\lsdlocked0 Medium Grid 1 Accent 3;\\lsdpriority68 \\lsdlocke'
+stp(client): sent: b'd0 Medium Grid 2 Accent 3;\\lsdpriority69 \\lsdlocked0 Medium Grid 3 Accent 3;\n\\lsdpriority70 \\lsdlocked0 Dark List Accent 3;\\lsdp'
+stp(client): sent: b'riority71 \\lsdlocked0 Colorful Shading Accent 3;\\lsdpriority72 \\lsdlocked0 Colorful List Accent 3;\\lsdpriority73 \\lsdlocked0 Col'
+stp(client): sent: b'orful Grid Accent 3;\\lsdpriority60 \\lsdlocked0 Light Shading Accent 4;\n\\lsdpriority61 \\lsdlocked0 Light List Accent 4;\\lsdpriori'
+stp(client): sent: b'ty62 \\lsdlocked0 Light Grid Accent 4;\\lsdpriority63 \\lsdlocked0 Medium Shading 1 Accent 4;\\lsdpriority64 \\lsdlocked0 Medium Shad'
+stp(client): sent: b'ing 2 Accent 4;\\lsdpriority65 \\lsdlocked0 Medium List 1 Accent 4;\n\\lsdpriority66 \\lsdlocked0 Medium List 2 Accent 4;\\lsdpriority'
+stp(client): sent: b'67 \\lsdlocked0 Medium Grid 1 Accent 4;\\lsdpriority68 \\lsdlocked0 Medium Grid 2 Accent 4;\\lsdpriority69 \\lsdlocked0 Medium Grid 3'
+stp(client): sent: b' Accent 4;\\lsdpriority70 \\lsdlocked0 Dark List Accent 4;\n\\lsdpriority71 \\lsdlocked0 Colorful Shading Accent 4;\\lsdpriority72 \\ls'
+stp(client): sent: b'dlocked0 Colorful List Accent 4;\\lsdpriority73 \\lsdlocked0 Colorful Grid Accent 4;\\lsdpriority60 \\lsdlocked0 Light Shading Accen'
+stp(client): sent: b't 5;\\lsdpriority61 \\lsdlocked0 Light List Accent 5;\n\\lsdpriority62 \\lsdlocked0 Light Grid Accent 5;\\lsdpriority63 \\lsdlocked0 Me'
+stp(client): sent: b'dium Shading 1 Accent 5;\\lsdpriority64 \\lsdlocked0 Medium Shading 2 Accent 5;\\lsdpriority65 \\lsdlocked0 Medium List 1 Accent 5;\\'
+stp(client): sent: b'lsdpriority66 \\lsdlocked0 Medium List 2 Accent 5;\n\\lsdpriority67 \\lsdlocked0 Medium Grid 1 Accent 5;\\lsdpriority68 \\lsdlocked0 M'
+stp(client): sent: b'edium Grid 2 Accent 5;\\lsdpriority69 \\lsdlocked0 Medium Grid 3 Accent 5;\\lsdpriority70 \\lsdlocked0 Dark List Accent 5;\\lsdpriori'
+stp(client): sent: b'ty71 \\lsdlocked0 Colorful Shading Accent 5;\n\\lsdpriority72 \\lsdlocked0 Colorful List Accent 5;\\lsdpriority73 \\lsdlocked0 Colorfu'
+stp(client): sent: b'l Grid Accent 5;\\lsdpriority60 \\lsdlocked0 Light Shading Accent 6;\\lsdpriority61 \\lsdlocked0 Light List Accent 6;\\lsdpriority62 '
+stp(client): sent: b'\\lsdlocked0 Light Grid Accent 6;\n\\lsdpriority63 \\lsdlocked0 Medium Shading 1 Accent 6;\\lsdpriority64 \\lsdlocked0 Medium Shading '
+stp(client): sent: b'2 Accent 6;\\lsdpriority65 \\lsdlocked0 Medium List 1 Accent 6;\\lsdpriority66 \\lsdlocked0 Medium List 2 Accent 6;\n\\lsdpriority67 \\'
+stp(client): sent: b'lsdlocked0 Medium Grid 1 Accent 6;\\lsdpriority68 \\lsdlocked0 Medium Grid 2 Accent 6;\\lsdpriority69 \\lsdlocked0 Medium Grid 3 Acc'
+stp(client): sent: b'ent 6;\\lsdpriority70 \\lsdlocked0 Dark List Accent 6;\\lsdpriority71 \\lsdlocked0 Colorful Shading Accent 6;\n\\lsdpriority72 \\lsdloc'
+stp(client): sent: b'ked0 Colorful List Accent 6;\\lsdpriority73 \\lsdlocked0 Colorful Grid Accent 6;\\lsdqformat1 \\lsdpriority19 \\lsdlocked0 Subtle Emp'
+stp(client): sent: b'hasis;\\lsdqformat1 \\lsdpriority21 \\lsdlocked0 Intense Emphasis;\n\\lsdqformat1 \\lsdpriority31 \\lsdlocked0 Subtle Reference;\\lsdqfo'
+stp(client): sent: b'rmat1 \\lsdpriority32 \\lsdlocked0 Intense Reference;\\lsdqformat1 \\lsdpriority33 \\lsdlocked0 Book Title;\\lsdsemihidden1 \\lsdunhide'
+stp(client): sent: b'used1 \\lsdpriority37 \\lsdlocked0 Bibliography;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdqformat1 \\lsdpriority39 \\lsdlocked0 TOC Headi'
+stp(client): sent: b'ng;\\lsdpriority41 \\lsdlocked0 Plain Table 1;\\lsdpriority42 \\lsdlocked0 Plain Table 2;\\lsdpriority43 \\lsdlocked0 Plain Table 3;\\l'
+stp(client): sent: b'sdpriority44 \\lsdlocked0 Plain Table 4;\n\\lsdpriority45 \\lsdlocked0 Plain Table 5;\\lsdpriority40 \\lsdlocked0 Grid Table Light;\\ls'
+stp(client): sent: b'dpriority46 \\lsdlocked0 Grid Table 1 Light;\\lsdpriority47 \\lsdlocked0 Grid Table 2;\\lsdpriority48 \\lsdlocked0 Grid Table 3;\\lsdp'
+stp(client): sent: b'riority49 \\lsdlocked0 Grid Table 4;\n\\lsdpriority50 \\lsdlocked0 Grid Table 5 Dark;\\lsdpriority51 \\lsdlocked0 Grid Table 6 Colorfu'
+stp(client): sent: b'l;\\lsdpriority52 \\lsdlocked0 Grid Table 7 Colorful;\\lsdpriority46 \\lsdlocked0 Grid Table 1 Light Accent 1;\\lsdpriority47 \\lsdloc'
+stp(client): sent: b'ked0 Grid Table 2 Accent 1;\n\\lsdpriority48 \\lsdlocked0 Grid Table 3 Accent 1;\\lsdpriority49 \\lsdlocked0 Grid Table 4 Accent 1;\\l'
+stp(client): sent: b'sdpriority50 \\lsdlocked0 Grid Table 5 Dark Accent 1;\\lsdpriority51 \\lsdlocked0 Grid Table 6 Colorful Accent 1;\n\\lsdpriority52 \\l'
+stp(client): sent: b'sdlocked0 Grid Table 7 Colorful Accent 1;\\lsdpriority46 \\lsdlocked0 Grid Table 1 Light Accent 2;\\lsdpriority47 \\lsdlocked0 Grid '
+stp(client): sent: b'Table 2 Accent 2;\\lsdpriority48 \\lsdlocked0 Grid Table 3 Accent 2;\n\\lsdpriority49 \\lsdlocked0 Grid Table 4 Accent 2;\\lsdpriority'
+stp(client): sent: b'50 \\lsdlocked0 Grid Table 5 Dark Accent 2;\\lsdpriority51 \\lsdlocked0 Grid Table 6 Colorful Accent 2;\\lsdpriority52 \\lsdlocked0 G'
+stp(client): sent: b'rid Table 7 Colorful Accent 2;\n\\lsdpriority46 \\lsdlocked0 Grid Table 1 Light Accent 3;\\lsdpriority47 \\lsdlocked0 Grid Table 2 Ac'
+stp(client): sent: b'cent 3;\\lsdpriority48 \\lsdlocked0 Grid Table 3 Accent 3;\\lsdpriority49 \\lsdlocked0 Grid Table 4 Accent 3;\n\\lsdpriority50 \\lsdloc'
+stp(client): sent: b'ked0 Grid Table 5 Dark Accent 3;\\lsdpriority51 \\lsdlocked0 Grid Table 6 Colorful Accent 3;\\lsdpriority52 \\lsdlocked0 Grid Table '
+stp(client): sent: b'7 Colorful Accent 3;\\lsdpriority46 \\lsdlocked0 Grid Table 1 Light Accent 4;\n\\lsdpriority47 \\lsdlocked0 Grid Table 2 Accent 4;\\ls'
+stp(client): sent: b'dpriority48 \\lsdlocked0 Grid Table 3 Accent 4;\\lsdpriority49 \\lsdlocked0 Grid Table 4 Accent 4;\\lsdpriority50 \\lsdlocked0 Grid T'
+stp(client): sent: b'able 5 Dark Accent 4;\n\\lsdpriority51 \\lsdlocked0 Grid Table 6 Colorful Accent 4;\\lsdpriority52 \\lsdlocked0 Grid Table 7 Colorful'
+stp(client): sent: b' Accent 4;\\lsdpriority46 \\lsdlocked0 Grid Table 1 Light Accent 5;\\lsdpriority47 \\lsdlocked0 Grid Table 2 Accent 5;\n\\lsdpriority4'
+stp(client): sent: b'8 \\lsdlocked0 Grid Table 3 Accent 5;\\lsdpriority49 \\lsdlocked0 Grid Table 4 Accent 5;\\lsdpriority50 \\lsdlocked0 Grid Table 5 Dar'
+stp(client): sent: b'k Accent 5;\\lsdpriority51 \\lsdlocked0 Grid Table 6 Colorful Accent 5;\n\\lsdpriority52 \\lsdlocked0 Grid Table 7 Colorful Accent 5;'
+stp(client): sent: b'\\lsdpriority46 \\lsdlocked0 Grid Table 1 Light Accent 6;\\lsdpriority47 \\lsdlocked0 Grid Table 2 Accent 6;\\lsdpriority48 \\lsdlocke'
+stp(client): sent: b'd0 Grid Table 3 Accent 6;\n\\lsdpriority49 \\lsdlocked0 Grid Table 4 Accent 6;\\lsdpriority50 \\lsdlocked0 Grid Table 5 Dark Accent 6'
+stp(client): sent: b';\\lsdpriority51 \\lsdlocked0 Grid Table 6 Colorful Accent 6;\\lsdpriority52 \\lsdlocked0 Grid Table 7 Colorful Accent 6;\n\\lsdpriori'
+stp(client): sent: b'ty46 \\lsdlocked0 List Table 1 Light;\\lsdpriority47 \\lsdlocked0 List Table 2;\\lsdpriority48 \\lsdlocked0 List Table 3;\\lsdpriority'
+stp(client): sent: b'49 \\lsdlocked0 List Table 4;\\lsdpriority50 \\lsdlocked0 List Table 5 Dark;\n\\lsdpriority51 \\lsdlocked0 List Table 6 Colorful;\\lsdp'
+stp(client): sent: b'riority52 \\lsdlocked0 List Table 7 Colorful;\\lsdpriority46 \\lsdlocked0 List Table 1 Light Accent 1;\\lsdpriority47 \\lsdlocked0 Li'
+stp(client): sent: b'st Table 2 Accent 1;\\lsdpriority48 \\lsdlocked0 List Table 3 Accent 1;\n\\lsdpriority49 \\lsdlocked0 List Table 4 Accent 1;\\lsdprior'
+stp(client): sent: b'ity50 \\lsdlocked0 List Table 5 Dark Accent 1;\\lsdpriority51 \\lsdlocked0 List Table 6 Colorful Accent 1;\\lsdpriority52 \\lsdlocked'
+stp(client): sent: b'0 List Table 7 Colorful Accent 1;\n\\lsdpriority46 \\lsdlocked0 List Table 1 Light Accent 2;\\lsdpriority47 \\lsdlocked0 List Table 2'
+stp(client): sent: b' Accent 2;\\lsdpriority48 \\lsdlocked0 List Table 3 Accent 2;\\lsdpriority49 \\lsdlocked0 List Table 4 Accent 2;\n\\lsdpriority50 \\lsd'
+stp(client): sent: b'locked0 List Table 5 Dark Accent 2;\\lsdpriority51 \\lsdlocked0 List Table 6 Colorful Accent 2;\\lsdpriority52 \\lsdlocked0 List Tab'
+stp(client): sent: b'le 7 Colorful Accent 2;\\lsdpriority46 \\lsdlocked0 List Table 1 Light Accent 3;\n\\lsdpriority47 \\lsdlocked0 List Table 2 Accent 3;'
+stp(client): sent: b'\\lsdpriority48 \\lsdlocked0 List Table 3 Accent 3;\\lsdpriority49 \\lsdlocked0 List Table 4 Accent 3;\\lsdpriority50 \\lsdlocked0 Lis'
+stp(client): sent: b't Table 5 Dark Accent 3;\n\\lsdpriority51 \\lsdlocked0 List Table 6 Colorful Accent 3;\\lsdpriority52 \\lsdlocked0 List Table 7 Color'
+stp(client): sent: b'ful Accent 3;\\lsdpriority46 \\lsdlocked0 List Table 1 Light Accent 4;\\lsdpriority47 \\lsdlocked0 List Table 2 Accent 4;\n\\lsdpriori'
+stp(client): sent: b'ty48 \\lsdlocked0 List Table 3 Accent 4;\\lsdpriority49 \\lsdlocked0 List Table 4 Accent 4;\\lsdpriority50 \\lsdlocked0 List Table 5 '
+stp(client): sent: b'Dark Accent 4;\\lsdpriority51 \\lsdlocked0 List Table 6 Colorful Accent 4;\n\\lsdpriority52 \\lsdlocked0 List Table 7 Colorful Accent'
+stp(client): sent: b' 4;\\lsdpriority46 \\lsdlocked0 List Table 1 Light Accent 5;\\lsdpriority47 \\lsdlocked0 List Table 2 Accent 5;\\lsdpriority48 \\lsdlo'
+stp(client): sent: b'cked0 List Table 3 Accent 5;\n\\lsdpriority49 \\lsdlocked0 List Table 4 Accent 5;\\lsdpriority50 \\lsdlocked0 List Table 5 Dark Accen'
+stp(client): sent: b't 5;\\lsdpriority51 \\lsdlocked0 List Table 6 Colorful Accent 5;\\lsdpriority52 \\lsdlocked0 List Table 7 Colorful Accent 5;\n\\lsdpri'
+stp(client): sent: b'ority46 \\lsdlocked0 List Table 1 Light Accent 6;\\lsdpriority47 \\lsdlocked0 List Table 2 Accent 6;\\lsdpriority48 \\lsdlocked0 List'
+stp(client): sent: b' Table 3 Accent 6;\\lsdpriority49 \\lsdlocked0 List Table 4 Accent 6;\n\\lsdpriority50 \\lsdlocked0 List Table 5 Dark Accent 6;\\lsdpr'
+stp(client): sent: b'iority51 \\lsdlocked0 List Table 6 Colorful Accent 6;\\lsdpriority52 \\lsdlocked0 List Table 7 Colorful Accent 6;\\lsdsemihidden1 \\l'
+stp(client): sent: b'sdunhideused1 \\lsdlocked0 Mention;\n\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Smart Hyperlink;\\lsdsemihidden1 \\lsdunhideused1 \\'
+stp(client): sent: b'lsdlocked0 Hashtag;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Unresolved Mention;\\lsdsemihidden1 \\lsdunhideused1 \\lsdlocked0 Sm'
+stp(client): sent: b'art Link;}}{\\*\\datastore 01050000\n02000000180000004d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000\nd0cf1'
+stp(client): sent: b'1e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000'
+stp(client): sent: b'000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\nffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\nfffffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+stp(client): sent: b'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\nffffffffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\nfffffffffffffffff'
+stp(client): sent: b'dfffffffefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+stp(client): sent: b'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\nffffffffffffffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\nfffffffffffffffffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+stp(client): sent: b'fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\nffffffffffffffffffffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff'
+stp(client): sent: b'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff\nfffffffffffffffffffffffffffff'
+stp(client): sent: b'fff52006f006f007400200045006e007400720079000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+stp(client): sent: b'00016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e500000000000000000000000010b7\n8e64f217da01feffffff000000000000'
+stp(client): sent: b'00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+stp(client): sent: b'000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000\n00000000000000000000000000000000000'
+stp(client): sent: b'00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+stp(client): sent: b'0000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000\n00000000000000000000000000000000000000'
+stp(client): sent: b'00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+stp(client): sent: b'00000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000\n00000000000000000000000000000000000000000'
+stp(client): sent: b'00000000105000000000000}}'
+stp(client): uploading complete
+stp(client): connection shutdown
+stp(client): socket closed
 
 End of task10 Testing
 ----------------------------------------
 ----------------------------------------
 Start of task11 Testing
 
+stp(client): socket created
+stp(client): sent: $type:pic$
+stp(client): sent: $size:4520$
+stp(client): sent: $name:sample4.png$
+stp(client): sent: <configuration_complete>
+stp(client): received: <configuration_approved>
+stp(client): uploading ...
+stp(client): sent: b'\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR\x00\x00\x01\x06\x00\x00\x00|\x08\x03\x00\x00\x00\xbc%\xee\x1d\x00\x00\x00\x81PLTE\xff\xff\xff\xcc\x00\x00\xd0\x00\x00\xc9\x00\x00\xfe\xfa\xfa\xfc\xf4\xf4\xcd\x05\x05\xcd\r\r\xfa\xeb\xeb\xfd\xf7\xf7\xce\x18\x18\xce\x15\x15\xcd\t\t\xf5\xd9\xd9\xcf\x1e\x1e\xce\x12\x12\xd1((\xf9\xe4\xe4\xee\xbe\xbe\xd100\xee\xb9\xb9\xe8\xa0\xa0\xf4\xd4\xd4\xd8FF\xf1\xc9\xc9\xe8\x9c\x9c\xddmm\xd255\xf6\xde\xde'
+stp(client): sent: b'\xd0##\xd1,,\xd3>>\xe6\x95\x95\xdezz\xda__\xe2\x8b\x8b\xeb\xb1\xb1\xd8UU\xd6LL\xe9\xa9\xa9\xe0uu\xd9dd\xe2\x85\x85\x14\x85\x060\x00\x00\x10\xe2IDATx\x9c\xed]i\x83\xd3<\xaf\xad\xe4&N\xe34k\xb34n\xe2\xec\xdb\xff\xff\x81W\xce\xc0\x00w:\xa4\xc3\x0bm\x87\x87\xc3\x17\xe82c\xcb\xf2\xd1\x91,\x87\xdd\xee\x1f\xfe\xe1\x1f\xfe\xe1\xaf\xc4\xc1\nN\xd6\xa3\x07\xf1hXa\x8d\x80N\xb7\x7f\xf4'
+stp(client): sent: b'@\x1e\x89\xe0\xdc\xf8X\xa0\xcb\xa3\xe3\xa3\x87\xf28\x9c\x9a\x1e\xd1F\x1c\xd0\xc7\xf8\xd1\x83y\x0c\xf6VK\x06@4\x87\xb3\xb5K"\x14\x87G\x8f\xe8\x018\x9c\x16G\x1bA\xe6\xdd:\xfd\x04\xe1\xf4\xe81\xdd\x1dYU5\x93t0\x8d\x93/\xcch\xcd0<vL\xf7\xc6a\x9c\x07\x1c\x1a\x05y\x18|{5\xf6\xf9\x7f\x88$\xf7\xd6\x02\xbe\x04a\x16\xf5\x8fR\xe1\x92\xda\xcb\x83\xc6tw\\\xc2\xdc\xb5\xd1v\xfd\xa9{C\x88#\x0e\xc1'
+stp(client): sent: b'\xb5\xef\xfcm\xd8g\xdd\x80=\x89\x84\xe1\x9c]\xd1J\x86\xeb\x87\xf7\x1f\xd4\xbdat\xcd \x1dSa\x1f\xbe\xb3\xe8%\xd6\xc6}\xc7tw$y\x1f\x95\xa9\xa2\xfdo\xbd+\x9aG\xee\xff\xcd$y\xb0N=82\xc5h\x1e\x7f\x9a8\xd4\xf0\xf7*I#\xabR\x1f\x95_\xf4\xf15F\xf8\x1eG\xd1\xfc\xa5\xf9UP5\xae\x8f&b\xf3\x1e#|\x07\xa3\xc6\xe4\x0ec\xba;\x92\xc6u|\xca\xa2y\x15\xdc\xb4\xcc!6\x7fzH\xf7\xc6'
+stp(client): sent: b'!\x88\x15\x96\x05\xf6\xe9\xd4\xdd\x1a\x00\xf6\x93\xfc\xbb\xca/\xc1i1\xb1\xa4\xf8\xd8\xb4\xd9\x07\xbev\xe4\xe7?6\xa4\xfb\xc3:\x0ffQ\x00\xc7!|?>^E\xdb\xfc5\xd2!\x1cJ@\x14\x8aW\x97\x0f\x97\x10\xce\xfe_\x91n\x1b\xc7\x8a(\x91"C1\xfc\x92\x06\x98p\xf9\xfc\xeep9\xe5\x02tUM\xb6\xe1\xc6f\xb0\xc2\xab\xb1\xf1\xec\xf6\x9f]I&\xcb\xe4h\x13@\xdfmM\x85\xe4\x84\xd7_{\xc3Bw\xfc\x03C\xbb\x1b'
+stp(client): sent: b'\xacnh\xa6\xbcA\x80\xdc\xdar\xebll\xa0\xb0\xd9\xe5\xda{3\xcaO\xaa$\x8d \xabC\xc0f\xee\x91\xf7\xe3\x06+\xee\xad\xcec\xbd\x02\x0e*\xbf\xf6~\x86\xf0\x91\x08\xfb,\xb0\xb2\xb1v\x00\xce\xb9\x9f\x0e\xe9\xb2E\xf3V\xd8\xda,r\xfb\xc6\x89L\x9b]\x93JV\x8fWw\xcb3\xc3\x08\xdb\x99R\x06!\xb0Ia8]\xf5\xf2\xefa\xd5\xb4i@Jh\x84\xf2E{5\xcb\x88\xd1\xfc\\J2\x9b\xd2\x02}.\xd0\x84\x16\xa7'
+stp(client): sent: b'\xe3-\x83\xef\xa1\x17\x00\x0e\xcc\x00\xef\x89\x8a\xcc\xc7\xea\xb7\x0e\xf3O\xc2J\x16\xad\x0e\xbc\xc8-(@N\xf1\x8d\xb4\x162\x1b\x80\x97\x9e\xff\x13\xcd\xbc`\xff9\xa4\xc3>9J\x92\x07ej\x9b=\xb7\xd3%\xdc\xa0E#y\x9dW\xe1G\x91\x13\xb9\xf2\'f8\x99\xeegP\x92A\xdc\xa6\'4\xc9\x17\xec\x02\xcdeS#X\xf1d\xbf\x92\x7f\xe5*\xe9\x94\xb6\x9b\xbf\x1f\x0e\x0e%.O\x1f3\x93I\xd1\xfcO\xe88X"\xe4\xc9\x96'
+stp(client): sent: b"\xff^\x96\x94G\xce\xfc\xf5\x9f\x01S>q\x03\x14\xf5N\x17\xa6\xaeNw\xc1h\x93l\x1f\x89\xbd1J\x8eQ:\x98gD\xe4\xc3\xb8\xb9\x87\x93\x88q('x\x8d\x8d\xfb\xc5\xe1\x8eh\x06h.\xc9\xc2\xfc\xab\x8a\xd1B|b%ie\xad\x83f/\xb1\xc6aAUw7|'a\xc2\xb6}\xee\xc1\xf2\xed\x95\xd2S\x8e*\n\x97A\xc3\xa2\xab\xee\x90\xbb\xe9\xb3\xee\x8a`\xcc\xd7Sx7\x12ySW\xe3\x8dECU\x94\xc0}\x1b"
+stp(client): sent: b'\xe4\xeb\xcf\xe9]Q\xb8\x11\xe5\xe2\x11\xf7\x81]\xfd1!\xc2s\xd6$\x83)u\xd6sx\x81\x9e\xad\x96\xcb\xcd\x11\xed\xc4\xfa\x02d\t\xee+%\x9eI?\xf5~IYE\x01\xc0\xd4\xd5\xdf\xa6\xe0\xaa\xd0~,\x0eI\xaf-\xd0`\xa4\x84r\xfcv\xcb\x06F\xd2\x0e\xae\x9d\xaeg\x12\x86\x18\xca2\xca#\xfb5B\xea2\xad\xe9r%A@1__u\xa2\x9eg\x93\x0e\x97\x8e\x16\xce/\xd0CRJM}\xda\xd8\xb5\x87$\xf6\x19h'
+stp(client): sent: b'\xb0Z\x7f\xf4\x0c\xe9\x00\x83\xec\x8bWw\x98\x80s\x99\x16\xfd0W\xef\t\xcf\xac|2%y9\xc7C\x14\xe5\xaaA\xec\xfb<\xdeJ\xfe\xac.t\x18H!\xc04\x81i\xbe?\xaa\xde\x03\xa9\x00^\xc9?\xc4\xd2-\x96\xc8/\xdf\xe7\xd8\xfd\x8c\xfd3\x91\xe4q\x1c\xc6\xc1)",\x10\xea\xe3\xd6\x81\xcb\xa5\x1d\x86\x90EQS\xd3\xb6\';4\xb4\xda\xc6Tx\x00\x83\t\xc3\xeb\xd2\x9b\xa5\x0b\xb4\'~\xd6\xdd2b\xf14\xa7\xdb\xc9\x94'
+stp(client): sent: b'\n9/\x1e\x92T\xf0\xdfu\xe0W\\\xa4\x03\x91ZJ\xd9\x82+\xa4Mf\x00\xbd\xde#\x99\x04|0\xd9\xeb\xbc\xe2>\xa7\xd0\xe1\x83x?\x1c\x18>\xb6\xbfg\x12\xff3\xe2\xc5\x07,O\xb4\x1d\xe4|K}\xd0b\x8e"\x0b\x80W\xd6\xd5@B\x91R\xc9\x9c\x88\xce\x1aJG,\x1c\xf8k\x19\xc1B\xe9\x81\xed\x03\xe8\x99\x1e.W\xab\x965\xa6O\xd0\xf3q1.1G\x171\x0e\xb1\xdff\x84qu\x95\xda)A\x90\xb3\xcb`w'
+stp(client): sent: b'\xa4I\xba\xa6kk\xf3-e\xcf\xe6\x1e\nxU\x925E\xd0BrH/\xc6iI\xcf\xd78\xe2\x82x\x8b<\xfb\xa3\xa0<\xa0I\x0b,\x1d9\xed\x83l\x93\x11\x96~%C\x12\x886m\x04\xf2\x87x\xb7\x1b\xc0qi\xc1\xf5z_D\x0end\x17\xf0\xea\xe6a\xa1L3U\xe0\xe4\xb9`i\xef_\xfb\xa9\xa9\xfd\xe0Z\xdc\xb1\xb7\xb5L\xd2\x986\ta\x1f\xf66x`\xea\xbf\x1b=\xf1\xa2i:0[\xbbL\x17\x16\\\x17\xf4'
+stp(client): sent: b'\xebRJ\x9f\xcc\x02\xafR\xc9jL0\xb90\xc16\xd9P\xb3\xe5\x1a\x1b\x9ed\xff\xc0\xfc\xca\xca\x88\x0b\xc8\x9f\xeb\x08\xcb|+\xed7.\xa3\xb7.?\xc0:\x93\x8e\xadv\x00\x1e\xee\x0c\xa9\xabm\x8a\xe9]\x11\x8aT\x98$\xa8\xf9k\xcc\x1c\x81L\xd7\xbb\x10\x15\xc3\x98\xc3p\xad\x03.\x90P\xff\xc6y}\x08V7\xeb\xfe]\xbb(\x87e\xfb\x08v?\x9a\x8c\xdb\x1c\x14\x1b\xca5\x93>\xaa\xd5\x0c&,\xfb\xfd\xa4#&\xac\xe1\xc1('
+stp(client): sent: b"mJ\xae\\\x0f\xf2\xafd\x984`B\xd4\xb0\xa2^\x14\xbb\x9e\xa9\xee[\xe4\x8f\xe9\x1e\x0e\xda\x14P\xa9\xea\x1c&\xc7\xcd\xca\xa2\x9e\xd1\xc8L\xa2B(\xce\x8b'W\x0f\xae\xd9j\x06\xc7\xb3\x12\x97\xcc\xc0\xcd\x97\xd4\xe9\x1c\xf94k\x17\xcaW\xcb\xd6\xc4\x98v#\xc63\xfb\xb1G\xf4;\x84\x02\x1f!\x1d\xacq9\x87G\xcb\xb8I\xcc'}C\x83\xcf\x04p2C6\xd2\xbaW\xfa\xe5\x90&\x0f\xe0\x08\x90C\xcbt\xe9\xd5}\xf9tQ"
+stp(client): sent: b'\xacf`\xc4\x9d\xc1\x12\xe9\x0f\xea\xd2\x8b\x18GV\xbd{\xe2}\x98\x9f\xbb\x08\xb5\xbf\x8c\xc4\x06\xac\xdd\xef.=\x88\x88\xc5g\xe6\xf2U1\xea\xca3x\x0e\x99\xc1\x86\xb9&\x8eL_|\xeaP\xbb\x8a\xbb))\xc9Q1`\xda\'"\x80\xb2\n\x7fz\xda\x9b\xf9O\xdc\xfab\x85-\xd0,\x89\xe2\x92\xdd\xa1\xe56\xc9L\xda\t \x9c\xd5\x83c\x06\x85\x0b\x9c\xa2\x05\xa5Sj\xf9\xea\xee\x9d\x0e\xa4D\x9a\xa2\x04?\xb5\x9b\xf5\x83C\xb5\xd5'
+stp(client): sent: b'\x11\xd6\xb4O[\x8b[\x1aJ\x9d4\xfb\xf9.\xc5\xbf\x8a\xbc\xa2\x91z#pVkB\xdb3p<\xe0\x8e\x03\x0c\x97o\x07\x11VZ((\x0b!\xf3\xc1\x95\xb6K\xd61\xb6\xcfvv\xcdv\xbc\xfe\xfd8\xdc\xb4\x11u\x1c\xd4\xdc\x07N\xc1:\xcd\x05\xc3\xa0S\x06\x1d7\xd71\xcfk\x8em\x82\xf7\xe3\xa6\xaf\xc1w`\x08\x87\xc2%Gb7\xb5\x88\x87\xbdY}|\x16\xbf\x84\xfd\xde0\xac\xe0\x18\x8e\xf5\x92\xdd\x16\x9dF\x06\x03\xf1\xa2'
+stp(client): sent: b'\xb6D\x14\x05\x96Ty\xc49\xf4\x94E\xb2J\xbf\x7f$\xe9@\xfe\xf0\x9dFXa\x91\x94\xaa\x8d\x9c\xd1v\xf2\x87\xed\x8e\xb0C\xd0\x9a?\xcd@\x7f\'\xac\xb0j\xf39EPWu\xdc\x0f\x1f\xfdz\xfb#\xf0 "\x99l\xda\xbe\xeb\x90<\xe8j\tEC\xebO\xdc\xf8\xaa$_\x93\xec\xef0p\x97\xfcFA\xdanG\xc1\xe0\xa4\xb3Zu\x9f\x06j#n\x94\t$\x19\xf3\xcdmz<\xcf\xe5\x97\xd1\x1f\x16\xa2\x86\xa1\x87\xd4\xf6\x89'
+stp(client): sent: b'\xee\x92]\xc18\xd3\xb1q\xa0LzU\x05\xdd*\x1d\x88\x10\x7f\xcc\xa2CF\xdb\x81\xd5\xa7\xedT5\xa9r\xadc\xe3\xbb4\xbd\x18q\xfe\x928\xd4\xc7-\xa3\'\rE7\x9d\'\xac\x08\x89\x16\xdc\x82\xe2A)|8%l\x88\xfc%\x97ZE\xc1\x1a\xdfV%\xa9\xa3B\xf5\x03\xd7\x18\x03c\xdb\xbf\x8a~|^\xf4&\xf6\xe3=\xc8\xd1H\x1a,\xcd\x12\xa3t+\x99\xdd\x07\xa3M\xbb\x9d\xfe\xb0/1\xde"\x12\xa4x\xe8\x11\xed\x8f!'
+stp(client): sent: b'\x8b\x8b\xde1\xa7\x8eB\xa1C\n|u\x00\xed\x1b:>\xc2\x8f>\xd6\x9d\xb7)\xd88\x97Z\xca\xa7wQ\x8f\xc7qF4\x11\xfa\xcd\xac\xe1\x90UH\x93\xb2u\xb2\x08\xf8\xc5Kc\x9a\xa1G\xf3\xac\x8f\xac\x00W)\x8a\x00\x99\x02\xe1\x0e\xeeK&\x9d\x15+\x85\x9a\xec\xe3\x9dpV\x92uc|\x17#d\xed\x80\xa4\xfa1\xef\xb6\x03w\x90jM\xb8.m\x14\xf9_\xaaGA\xc4K\xbd\xdcq\xcbdD\x9c\x00\xb6\xaf\x15\x15\x8fl\xd0'
+stp(client): sent: b'\x02{\xb7\x9f\xd7\x94\xd3\xfc"\xa4\x9f\x12]\xea\x83\x8f\xba\xbcz\x0b\r\x1b3\x134%[x\x1e\'\x01\xf8e\x99\x1a\xae\x05\x93\xeccf+\xa1\x06\xf0\xcb1\xb4M\n\x9b\x1e|Q\x92\x94K\x90\xa5\xae\x9fH=\x01\x8e=\x9a>\xca\xfe\xe6[\xe1\x943i\xc1\xe8yk\x9e\xac^x\xeb\xc2J\x80<g\xd9@\x13/\xd3\x88\xc3\xb2\x1b@\x17\x9e\xd8\xb4\x1a\x97\x81\xd2\xf9%\xdc\xd6\xc3\xb4\x0f\x12\xca\xe7\xee\x99D-D@}\xbd\xb5H'
+stp(client): sent: b'\xfbo\x8e\x12\xda`G\x0e/#\xc7\xf6m\x87\xb7/\x83%+\x0c\x1d\xe9\xc7@\x96\x9e\x80\xb9$\x8dpf\xdc\xd3;e\xddh\x0bSz\xdb\xb0\xfe\x06\xba\xd7\xd7\xf5\x87^\xdd\xb3\xd2d\xd4Xlh\x04#\x0b\xab\xea<~u\x97K\x01v\xe9@:\x91\xd3\x17\\D/\x16\x1cY\x1f\xf7L\xb1KL/R\xa6\xcdU\xb2[\x13\r\xf3EI&\x0c\x04c\xcdx\xdc\\\xe2c7\xf7\x889\xf7\xce\xf7<\xab\xab\xd0\xfe\xa9+\x18\xe7s'
+stp(client): sent: b'\x13y\xbc\x91\xe6\xd7\x14\xb7\x06\xd2\x08\x82w\x91W\xae\x9d[\xeb\xc4\x82(\'\xe1X@u\x98A\xd0\xb2\xfb\xc3i\xd7\xaf\xc5&Xk\x8fF\xcfX\x9bl\xbbB\xd8\xf6\x85\\\x10\x9a\xf8r\xd7\xc2B0\xe0O:\x92\x0fg\xce*\xe6\xfaz\xbe_\xb3\x9f\\\xd7\xd9\x05\x8c\xa3P4o\xf1R\x81\xdeWL\x97V"e\xe8z\x0b\xcd\x9f\xb5\xda\x03\x00J\xf9r&\x13V\x9b\t\xca\xde\x08\x8b2n\x10\x97\xea\xfe\xd7\xccr,\xdeU\xea'
+stp(client): sent: b'AO3\xa9)B\x924":|1\xd7\xc9\x05\xdf\xa7\x04a\x1fw\xe9\xe2)\xef\xa5k%\xd3\xb9\x13\xb7!&3\t\x9d\\\xe6\x06\xe5\x12\x9c\xf8\xf2FZ\xb4\xb2\x1a\x1bu\xee`\xbb\xec\xfb\'\x10\xa2\xed\xbc#\x1c/\x14\xf9"\x98h~$\x97\xec\xafZ\xd8\x1a<O\x81\xc3\x82`Q\x11/\xc4K\xb5\xd8\xcaa=\x90\x9b\x0e\x16\xb3m\xdf\x87\xde \xc2\x10\xa2T,\xbf\x81\x16\x13\xdd1\xe2\xaa(\x8d\xaf\xde\xce\xbd\x03\n\xa1\xdc\xab'
+stp(client): sent: b'\x0e\xabg\xc6\xa5kWU4\x17\x12\\\xf6\xe5f\xa8J\xc9.\xde\xb4\xb7\x06\xf2\x15\x9fhrU\x9e\xa3.A\n\xcf\xcfH:\x9bb\xd0M+G\tl8g\xdbV\xb0*\xe9\n\xc7i"\xec\x1e\xd6\r\x1bcj_\xef\xd8.|\xad\xfc\xd4n79Z\x00|\xbdO?\x11\t\xa8\xd8\x1aw\'\xb0\x81\x9bE;j\xa5h(SI\xaeK\x0c\x16eR\\\x1fH\xed\x17\x1eo\x1f\xee\x18\xb1ob3a\xe147\x168\xfe\x08\x0e'
+stp(client): sent: b"\x08\xaa\xb8\x96J\x9c5)\xb8\x8e\xd2\x1b\x9f\xc9\xf9\xb5\xeb\xf5\xc4h\x91\x17W\xec\x8c\\s\xe1\xe9T\xacm+\x93)I;\x81k\xedB\xae\xcf\x9e|Z\xe5\xcd_n]&\xa9\xb3\x19t\xe7\xf9\xb1's\xfbV\xf8j\xbe\xb2\x0eg\x96\x92F\x88\xf4\x93$\xf2\xefk\xa5\x17\x8a}\xad\x02f\x90\xbf\xd0\xbc\x15I\x82\xcb\xfar\xc3W\xb3\xec\x0e\x130\xd2\x11\xdb\xbf\xfax\x9ar.\\Rp\xaaz\xb8\xcc\xce\x04\x96\xc5\x15v>1\xa2"
+stp(client): sent: b'y\xeeB~\xd8\xfd\x10J\x82\xbek\x95\xeb@\xb7\x0bS\xae\xeb\x08&[\x83\x81t\xe9E\xd0E\xe6#\xd470B\x98+O\xf5\x8b*QvOpbo\xe4h\xab+*7\xa199@\x8a\xd8\xcf\xe3.1\xf6\xaf\xfepl\x18i%!S/"\xce \xc5\xf0r \xd7\x91\xb8\xe8I?\x93\xf7l\x0b@\xddUj\x9b\xb8\xccS4<(6\xfc\x7f\x9c\x04%\x98o\x83\xa6Q\x93\x19L\xc8\xb9[2;eE\xdf~9\xd0\xaf'
+stp(client): sent: b'D\x03%\xa4:B\xdaQ9\xd4\xbaa\xc7\xd2%w\t\xbdR\xcd\xb6{[I\x8d(\n\xaf@\xac\xc7\'p\x84\x17XCZ\x0e\xcd[v \xa1$\x1d\xd7N\x0bJ%\x07Ia\x81\xa5\xeb\xde\tK"CO\x17\x9c\x1c_\xdaPF\x14!(\xc5"%\xc9\x9ax\xdb\x08\x97\xb0)\x917\xa5.\xf3\xc4Oc\x04B\'\xa3~x\xdb\x93L2\xd0\'a\x98\xf6.\x8f\\[o\x0f!\xb4\xd3\x1c)[\xe4\x8e\xe3\x15\xc0@*\x9bd'
+stp(client): sent: b'4x.M?\xab\xc3mF\xc8\x96thz\xdb\x97\x02\xdf;\xb1}\x14\x024y.\xdf\xba\xc3\xc5%Q,9yBi\xafy\x12\x05P\x9a\xee!\xa7=\xa1\x8f\xeb\xfcq\x7f\x8a\xf8\xccu\n=\x18/G\xda?\xc5~\x8c\\t"o\xa0\xddV\xdfvc\xff\x9eh\x1c,\xa6\xea\xed\xeb\xc1d3&\xfc4r\\\xd3ti\xec)\xd3\r\t\xedz0\xe5i\x19m\xcc\xe0\xf4\x8d\x1a\xf2\xed\xba\x8d\x95\x9cI \x98\x11:\xa6\xd3o'
+stp(client): sent: b'\xeb\xaa\x07 A\xe9\xf9\xd7\x8e\x07\xf7\xa7x\xc9SJ\x13I?\xbbR\xb8\x94K\\4\xa7:~I\xe2Y_\x04\xeb8k\xc6\xf3\xf6\xa4\x8e\xa7\xc6\x05D\x07=\xec\xab\xed\xeb\x06\x0f\xc1^E>\xaa\xeb\xf5\xdf\x83uI\xc2n)\x98]xD\x10\xda\x05\x02\xe2\x06\xe9\x91IH\xf8\xed\xa3\xe9\x06\x8d\x90\xb5\x83\xea\xe7\xc8t(&=\xef\xa1\xf4\xae\xd3\x82\xf6\xfd\x1b\xe1\xfbD\x13\xc2ZDYw\x85\x02;\x15\xba\x05\x9a\xde36\x13\x81'
+stp(client): sent: b"\xc38\xd8\x9eg6\x19\x05\xc82~>J\xf8\x86@\x89\x02\xd5\xf5\xfa\x8b\x95ML\xb7+; \n\xe8'8\xea\n\x14\x08\x97AtC\xd3\x85q\x9c\xe6\x1a\xa5\xeb\x99\x8a\xa4\xf3\xd3\xb4\xfb\xbe\x83\n\x15\xe2\xf4\xf6\xf5\xc3e\xa4\xb0\t\xba]y$\x99P\x9d\xa5~xa\xa7\xdb\xf6\x9aj;\x19\xbat9\xc2p\xcau/]\xfe\xd1\xe7W<\x00Y\x89\x85\x82\xb7\xee\x10*J\x9d|\xc9\xdaU\\7\xa3]j\xe1l13\xbf\x8d\x11"
+stp(client): sent: b'|\xd7D\xae*\x07\xfb\x1b\xce\x82\x9e\x00\r:\xea\xcaM\xf1$\x12$\x9b\x1a\x90\x17J\x98X\xed\x02gzI\xdb\x1b\x1e\xca1\x0e\xc4\x05\xbeC\xc1\x01\xe7*{\xce\xd8\xf0\x06!:\xbc\xb8\xd2\x9b]kf\xf4\\\x96\xb6\xcc\x9b}9\xb3\x9b\xb6\xb7q\\\xd6;\x99\xe5l\xa2\x99^\xbfy\xfd\x9c\x90N\x19\x89\xb7\xad\xfa\x89.\xae9\xa4\x96\xa4[/\x11S\xb7\xdc\x03\xbc\x9cf\x92\x08\x14\x1c\xb0\x10b\xba\xcb\x89\xfcoC\x8c\x91\xc4+'
+stp(client): sent: b"\xf9\xf6D\xd9\xb4\xd3H\x96V\xb3-\x8a\x1b\x0e\xf9\xb2\xb6\xd1\x05\xa5\x92X\x01\xecO\xb3\x1b\xbe\xc2B\x81\xa6|\xeb\xf2\x96)lP\xa9:\xf6\x8c\xcd\xdb\x0b{i\n\xd4\x1d@\xe8\x03\xfa\xe3\xf3\xc7\x867\x88\x81$T\xfbv\xdcA_8\xd0\\\x06\xd9n\x19\xc1\xd8MN\xb4\xf6\xd9\x9b\x9e\xe7w\x9f\xf1\x11\x1c\xc4\x02\xa6\x004\xaf\xd5\x0b\xb2x\xb4\xc2\xcd\xb2\xf1\xe5\xd4\x87\x03\xe6\xe5j\x87\xa6\xfa\x14\xf1\xf1\n\xac\x1c{\xfc\xe5\x07}'"
+stp(client): sent: b'U\x8aX\'\xd8O8\xd7\xf9\r\x85\x87\xa7\xc5\x88\x8d\xe4\xf6/}\xb5\xeb#\xb2!\xb7O\xc4\x0b\xd1\xb8\xf9\\\x9f\xa7F0`*?~\x15\xfa\x10\xb4.\x89\x04{(]\xec\x82\x9b\xae\xab?7\x16\xd4\x1dP\x1f\xfbN\x90\xcd\xa4\x15}\xbe^\xd7N\xff\xcc\xb8\xee\x8c\x80(\x9e\xdb\x1f\x89qY5 \n\xee\xbb>\xa2[\xdf\xd0\xfb\xfd)@\x0b\xcb?\xf0d\xe7\xd3\\R\xc6\xe0\x97\x85\x83"\x8a\x83O\xcd\x08\xdf#\xd0\xe7h\xb7='
+stp(client): sent: b"\xef\\\xff\x1f\nv\xe9\x89T\xb8\x1c\xdd~\xeb\xb1w\x9f\x0bma^\x13\xd4o`eSAi\xc3\xe2\x129\x9a\xfd\x13\x97\xd5~\r\xa1o\xa2\xd8\xdc\x15I\x9cK1sa\xfa\x05\xf8\xcbg\xd6\x08\xef\xe0\xa2\xb5\xf0\x86\x82\xear}\x16/\xa754t\x1f\x7f\x1a\xe8g@\x05\xa4\x87\x7f\xb2\xbc\xd6\xe8\xf7(\xf5\xcd\xcc\x1a\xa3\xfa\xb3?\xce\xf2]\xe8\xea\xf1\xbb\x8f}'F\x00L\x15:\x1e\xea\x87\x81\xdeu`\xf7\xc5\x9eb\xe6;O"
+stp(client): sent: b'g<v=:\x12\x9b\xa2@\x9e\xdf\xfaX\x9f\xcf\x8a\xaeD\xb8\xf6t\xb6lJSE\x060S\x18\xc6\xcd\x07}}~\xd8rx\xf3\xf4\xfb}\x95\xea\xfcY\xd2f\xc0e\xbb\xe1\xf7o\xc0\xd9/\xf0\x87\x89Z\xd9\x19_ \xd2\xe9o&\x84\x1f`)\x1b\xbe\x85\x8a\xfd1\xee\xa1\x11\x11\x05\xd2t\xf9\x1cG\r\xbf\t\x0b\xfb\xee\xd8&[\xe5\x01\x82\\\xb2g>|\xfc\x038d\xdf\xb5/\x85i\x8dZ \xdc\xf5\x92\xc7\xf3!\xeb\xf3\xf3'
+stp(client): sent: b'\x7fi+\xbc\x87\xff\xb6\x17\xfc\xc3?\xfc\xc3?\xfc\xc3_\x8d\xff\x03552V\x03P\xbe\xa4\x00\x00\x00\x00IEND\xaeB`\x82'
+stp(client): uploading complete
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $name:sample5.jpg$
+stp(client): sent: $type:pic$
+stp(client): sent: $size:7876$
+stp(client): sent: <configuration_complete>
+stp(client): received: <configuration_approved>
+stp(client): uploading ...
+stp(client): sent: b'\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01\x01\x00H\x00H\x00\x00\xff\xfe\x00RFile source: http://commons.wikimedia.org/wiki/File:JPEG_example_JPG_RIP_010.jpg\xff\xdb\x00C\x00\r\t\n\x0b\n\x08\r\x0b\n\x0b\x0e\x0e\r\x0f\x13 \x15\x13\x12'
+stp(client): sent: b'\x12\x13\'\x1c\x1e\x17 .)10.)-,3:J>36F7,-@WAFLNRSR2>ZaZP`JQRO\xff\xdb\x00C\x01\x0e\x0e\x0e\x13\x11\x13&\x15\x15&O5-5OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\xff\xc0\x00\x11\x08\x00\x87\x00\xb4\x03\x01"\x00\x02'
+stp(client): sent: b'\x11\x01\x03\x11\x01\xff\xc4\x00\x1b\x00\x00\x02\x03\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x05\x00\x02\x04\x06\x01\x07\xff\xc4\x009\x10\x00\x02\x01\x02\x05\x03\x03\x01\x05\x08\x01\x04\x03\x00\x00\x00\x01\x02\x03\x04\x11\x00\x05\x12!1\x13AQ"aq\x81\x06\x142\x91\xa1\x15#B\xb1\xc1\xd1\xe1\xf0R3bc\xf1$r\x82\xff\xc4\x00\x18\x01\x00\x03\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x03\x01\x04\xff\xc4\x00#\x11\x00\x02\x02\x03'
+stp(client): sent: b'\x01\x00\x02\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x01\x02\x11\x03\x12!1"Q\x13A\x042Ba\xff\xda\x00\x0c\x03\x01\x00\x02\x11\x03\x11\x00?\x00\xe7`4\xb7d\xab\x9aQ\x12\x9fU\x96\xe4\xf8\xd8o\x8bM\'NR\xd4\xe9#\xd3\x9d\x81\x90\xaf?\x03\x81\x7f|V\x08\xa2\x81\xca\xac\x9b\x95\xd4T\x804\xfcbS\xc6\xd5\x0e\x02*\xb9*\x16\xcd{\x05\xb7\xf7\xdc\xe3\x95\xb4\xcdJ\xc7T\x10G \xd359Z\xed\x8cCU\x80\x00nV\xdc'
+stp(client): sent: b'\x9e\r\x8f<c[\xd4"QG\xd5\x86Bd:\x08\x96N\x1f\xddy\xbf\xd6\xd8[\x11Z\tL\xb3\xcf\x14\xcf)\x1f\xbbRF\xa3\xc0\xe7\xe9\x7f8\xe8i\x98\xce\x12aG$\x92H\xc4\x86Fc\xd3?\x86\xefcr5\x02{\xdb\xeb\x895\xab+\x17@\xa8rASF\xf3T9\x92d\x89\x8a\xeaP\x07\x1d\x97\xb0\xc2\xd4\xcc)\xe7c\xfb\xe9\xaa\x0c\xca\x82Xj\x08VP\xa2\xd7[\xdf\xb5\xf6\xed\xce4\xe5\x19\x94Y|S\xac\xb15'
+stp(client): sent: b"MeK\x07\r\xd5:U\x00\x1bj\xe6\xfa\xb9\xb0\xde\xf8EY\x02\xd5WV\xb9\x91\x93Q2\x8d\xff\x00\x0e\x93\xea\x17;\x0bv\xf3\xb6\x1d|\x8a'\xfb\xa3\xe8\x11RQR\xd3\x9a\x98z\x92uJ\x93\xd4<\x85]#o\xf6\xf8\xe4b\xcb\xa9\xe5\xe9\n\x1a\xd9'\x89\xa4\x08CCcbO$\xed\xcf'\xf2\xc6\xec\xb2\x1a\xe8h\xe3\xebU\x9az7B#\x15O\xb8\xf0Uy>y\xdf\xc60\x17\xcb\xccF\x9e\x96\x94\x99\x14\xfaf\x94\xea"
+stp(client): sent: b"\xd6y\xf5[\x8fP\x1cv\xbe&\xf96\xca()\xc7\xfe\x9e\x1aX\xe8f\xa8\x834\x8dz\xb1(\x90$\xec]@\xef`\xb6\xbd\xafn\xf8\xd8%\xc9\x1a\x9a8\xab\xe6\xa0Y\t\xb4\x11\xc3\x13\x9b-\xf6\xfc\\\x12~9\xc7\x9fh\xfe\xd0,\xb3\xe5\xb4\xb9\xbd0 \xc2Zq\x06\x92\xc1\x98\x104\xea\x1b\x1f\xaf|'\x9e\ny\xd2\x18\xa8jje\x00\x1d&T\nun\xc3W\xab\xd5a\xdcb\xb2\x8d\xafDSp\\A*\xf3\x1c\xbe\x96"
+stp(client): sent: b'z\xa8\xda\x8cT\xc3p\xaaL\xac/o\x1e0\x1a\x8f\xb4\xd5\x95R)\xa5\x83\xee}5\xd1\xae3\xabZ\xf6\rq\xbf}\xf1\x98D\xb2D\x89+\x02\xba\xc6\xf29\xf5\x93\xabqn7\x1b\xdf\xdb\xce.\x89K\x00\x8cT\x97\x11\xc8\xb7)\x1a\x8dl;nvQ\xe4\xf6\xe3\x04c\x10\x96INVo\xa2\xaf\xac\x01\t\xe8\xce\xba\xc3*H\x80\x0fs\x7f\xe1\xf9\xf3\x8e\x91\xd2)\xaa\x16::\xb8j\xaa\x1b\xd4\xeb\x13]"BO\xabnm\xf3'
+stp(client): sent: b'\xbe9\xc8r\x8a\x9c\xcdzT\x9fv\x96\x10J\xa2C(m"\xfb+\x1bX\x9f\'\xe3\x0f\xfe\xce\xe43eq"\xd4\xd5\x8a[\xcaY\xe9b`L\xc7{j=\xad\xe0`\x96\x18\xc8\xa4\xb35\xe35e\xc4%/\xde#7i\x13\xd6\xcc\x7f\x84\xf3\x7f\xcb\x18\x12\xba\xbe\xa3:I\xab2\xe7\xfb\xab\x92MK\x02\xa0F7\xd8\xf8\xbd\xad\xdc\xdf\x0e$\xcb\xf2\xe4\x91\xcf^\xad\xcb\xf8\x92\xca\xbf\x03\xb6\nV\x8ajg\x81\x16R7\xb12\x16'
+stp(client): sent: b'\xb1\xe2\xf6\'\x18\xa18\xf1\x08\xf2E\xf4WQ\xf6\x86)\x1efZ\x85\x8bTeD$\xe9tQ{\x9bs\xcd\xbe\x98]\x96\xd7<Y\xe4\xf9\x9d\x14*\xd0U\xc2\xb0"\xc6t\xa1pmp;~\x1f\xd7\x083|\xa6\x9b.\xafv\xac\xad\x91\xe4e\xd4\xaa\x91\xdb\xa8\x0e\xc3I\xed\xf1m\xbf\\6\x91\xa7\xa23$1\x15\x96\x80\xc6\xea\xb1!vPE\xd7\xe8\x01\xb6\xff\x008f\x9a\\5\xb8\xb5Th\xfd\xbf_\x97\xd7\xc7M\xf7xf'
+stp(client): sent: b'\x8dav\xe8\xcazn\x8dmZ\x9b\xbd\xf67=\xef\xf3\x85K\x99\xd5\xe65-U=oO\xa8\x00\xbd(\x01\xc9\xe0^\xc4v\xbf7\xc3\xaf\xdb\xb0f\xf9B\x9aX\x91j\x90i\xa9\x89\xd43\x94\xb5\x89\x04\xdfm\xf76\xc5\xf3ZZ:\x8c\xc2\x9e\\\x8c\xd3u$\x8b\xa9*\xb3\x80\x14-\x95J\xf2\x03Z\xe0\x1e\xdf\xae1\xb7]2\x14\x9f\x879\x9b\xc1\x96TJ&\xcb"h\xd9\xd4j\x89\xa3!l\x0e\xec\xa7p\x06\xdb\x8cHr\xa8'
+stp(client): sent: b'\xde9\xab*\x10\xad)\x05\xa3\n\xc0,\xd7]\xb97\x07\xbe7\xe7\x14M\x97U\xcc\xc6I\x00eB\x91\xb9\xba\x85\xbd\xda\xf6\xf0y"\xdb\xf01|\xd8S\xd4\xbfN\x96\x89\xa0\x10\x9dE\xda6Uw\xf3by?\x99\xc1v#\x8bo\x82:8\xc8GX\xbe\xee\xaa\xae@\x05U\xbfS\x89\x8dz:`+\xd2C\x1bsf[\x93\xbf<\xe2c\t\xd4\xbe\x8c\xae\xb2"3\xd3\xc4\xe8c:M\x90\x9dV\xfao\x8bD\xf2\x1amE\xe5]'
+stp(client): sent: b'G\xd2\x14\x9d\xf6\xdb\x8e\x05\xb7\xb7\x8cV\x17#RD\x93\x1b\x90c[\xde\xdenO\xe7\xfa`\xee\xf1\xa2\x97H\xdc\xac\x8e%\x05\t\x04\x9b\x00v#au?LV\x90\xab\x9e\x80I)\xd2!%b\xac\x8e\x87\xd1\xaf\x84\xfa}7\xc3\x18j\x92\xb6jZvF\x9d#cdC\xa7O\xf1\x11~nlm\xbe\x16\xa4R\xd7U\x11\xb7\xac\xfanA\xb5\x81\x06\xf7\xed\xbd\xce\x19TQ\xc5KL\x1e\x04\x9aYQ\x91f\x054,\xc0\xad\xf5'
+stp(client): sent: b'\x8bo\xed\xe4_\t\x91&\xa8t\xdc\xbcC\x08\xa9\xe3\t\x12#h\x925&"\xe8t\x8fP6m;\x9b\x8d\xc7\xe7\x8a\xe4\x99\x84\x14\xf9\x92T\xd6\x18E+\xca\xe8\xed\xd3\x0c\xad\xbd\x97\x8d\x86\xe0\x1co\xa9\x97(\\\xb5a\xa0\xa5\x9d\xe6*\x9dVFdQkl\xc6\xe2\xfd\xb6\x1f8\xc0i)\'\xacWj\x82\x9a\x1a\xce#B\xea\xcd\xdc\xecn<w\xc2E\xeb\xe8\xca2hq\x9f\xd4R\xd6V\x18\x85]*\xc1Nm#\xb9\xb9\x0c'
+stp(client): sent: b'I\xb8\x16\xdc\x11lb\xcb2\xca:\xd5o\xd9\x99\x84\x12\xca\x9e\xb2\xad\x1b!\xf1\xc1\xed~\xf6\xc6j\xb1,\xf0\x9a\t\x169X\x1e\xb2\xf4\xe0\x02\xebssq\xba\x9e\xc6\xf7\xdb\xdf\x0b\xe0\xab\x92\x13$\xf0\xc6\xd7h\x8c=c\xa8\x05\x17\xb9\x05y\xb8\x1f\x9d\xc61\xab\x95\x95S\xd65f\xfc\xe6\x1aY\xa5x)a\xa1\xa4\x90\x02\xae\xce\x17\xd7{\x16[\x10}A\x85\xc3\\m|S%\xaaJy\xde\xb6\xa8C_V\x9e\xb4\xea\x1fZ\xd8'
+stp(client): sent: b'i6c\xc9\xb5\xac-\xbd\xb0\xfb\xec\xceU;\xd3\x03[\x0cL\xa6N\xa3+\xc5\xe8&\xd6\xdbV\xe7\xe7\xf9\xe1\xadQ\xa5\x8a\xab\xef\x11\xd2\xc2\xd5(\xbaL\xcf\x1a\xeb\x03\xc06\xe3\x16\x84\x1b!)\xaf\x0en\x8b\xec\xf4\xf5\x95\xad9\xa34\xf4\xa6B\xf1\xfd\xe0\xe9)\xab}\x80\xdc\x9b\x9bok[\x0eNW\x95CO\r<\x90GV)\xc3\x15\xebn\xb7f$\x9d6\xb5\xef\xe7\x81l\x1c\xd4\xd4UF\xad\xaa\xc7e\xf9\xe7\x06\x8e\x8aT'
+stp(client): sent: b':\xa4\xb4\x9a\xd7{\x10?\x9e)\x18S$\xd9\x8a\xa2y\x0c\x01)\xd1b\x81l\x02#i@<Xv\xc6e\x9eH\xd0\xad\xe3\x01\x86\xe40\xb9\x1f\xef\x8co\x9a\x17v4\xd1\x15\x8d\xd8\x85\xb0;\xb0?\xe0o\xf4\xc6,\xe2\xab&\xfb8!5\x10IW<\xc0\x98\xd4\xad\xc9\xb7{\x9d\x87?8zF\x03\x0b%\xc9\xea\x06\xdbW \xd8c\xc8\xe6+v:G\xfd\xa1m\xaa\xfe\xfd\xb1\x92\xa7?\xc9*2\xc14\xcei*\x95\x88\x10"'
+stp(client): sent: b'\xebe>,6"\xdd\xff\x00\xb6\n\xd1T\xc3\x1aJ\xb7\xe9\xc8\x01\x0c\xc8x\xb6\xc7\x7f\xf1\x8ck\xe8\x0f3\x08 \xcc\xe9\x9a\t\xd4\xe8o\xc2\xabmQ\xb7b>?\xae\x17\xe5\xe9]K[I\x05liSOO ?{to\xdd\xa9\'mCss\xd8\xdc_\xe3\x1b\xa3P\xf2\xa8 \x9dD\xdc\x8d\xbc\x9cI\xe9!\xad\xa2zy\xf5\x08\xe4\x00\xdc\x1fR\x11\xc1\x07\xd8\xf6\xb6\xf7\xc4\xcb,\x94h\xfbEN\xb2:\x9ai\xe9V\xb4K'
+stp(client): sent: b'\xa8K\x1ai\x96(\x87\xe2\x17S\xbd\x87c\xce9\x1e\xadeDq\xcbWK*\xc2\xfe\x98\xe7x\xc8\x01I;\x96\x1bv\xe0\xed\xdf\x03l\xba\xa7!\xabi\x1bQ\x8b\xa6\xfae[\xe9`V\xd7\xb1\xe0\xf9\xbfq\x86\xb9w\xed9)\xd2q \x84\x19\x16\xc9QuW]\xf7m\xb8\xf1\xf3\xdf\x12\x9fxtai\xafF\xd1;\xd0\xcdCQYg\x8a\xa0\x91\t\x07\x90A\xb0\xb9\xf67\xfeX\xc4\xd3\xe4\xf4\xcc\xd4\x99\xa2\xe6\x12\xd4B\xb6e'
+stp(client): sent: b'\x85nbA\xb0\xbb\x03\xc5\xac~\xb8Y\x02\x9c\xca\xb1\x96\xa30\xd0\xf7\xe9\xbbNu\x92\xba\xbd!\x00\xdfU\xf8\xb5\xb6\xc1\xf3i\xa1\xa4\xcc&\xa2\xcd\xe9\xa5\x9e@\x15d\xa8\x88\x9d\xd0\x0fM\xc7\x909\xe6\xe7\x19\x18h\xb9\xd2\x8d\xb9K\xa0\xf34\x8eZ\x85\x97+Y\xcd3\xa0+\xd5+\xab\xdf\x9cLZYZ\x06\tM\x95\xc5<V\xba\xbc\xd3\x8dDv\xbf\xf8\xb8\xf7\xc4\xc2\xdc\xbe\x8a~(}\x98\x1e\x92v\xa5\x16\x02p\xa0 c('
+stp(client): sent: b'S\x18\x06\xf6\xdb\x9c\x16X:tqH\xef+H#(\x826_\xdd\xc9\xa8\x8b\x92y\xba\x83\xf9\xe2\x86\x86\xa0\x97\x88\xc6\x1b\\z#]\xaf\xaf\xe7\x82m\x8d\xd4\x7fg*FU3\xb9\x9a:\x97\x90Z\x06!v\x00\xfe\x12M\x89\xb16\xf3\x8a)_\x8c\xe0\xd7\xbd3\xd1PK4\xd5\x11k3$\x91\x86D\x88\x856\x04\x82\r\xb6\xbd\x89\xf9\xc6\x8c\xd79\xa7\xda\n8\xa6+\t\x1a\x8b]zd\x03\xb1\xbfs\xf8w\xc6\xff\x00\xb3\x94'
+stp(client): sent: b'tt\xab#\xac\x1d\x0c\xc1A\x8e`X\xd8\xa9<\x80v\xdfa\xb18\xb7\xda\xfe\x8b\xd0\xd1S\xcc\xe15Tk\xfc\x05\x8d\x807;s\xcf\xb9\xc2]\xc8\xbf\x14i\x08r\x8a\xf4\x8e\x9c\xd2USF\xc8\x1e\xee\x1e\xc4\xa1\xb1\x1c\x1e\xf8 \x94\xd2\xaa\xb3\xc9\xd6\x88\xbe\x97"1x\xf9\xdbn\t\xed\x864+\x97\xc9,\x14\xf4\xf3Q\xbc\x8a\x07\xe3[\xb4\x9c\xf7#\x9d\xbb\x9d\xb1\xb5~\xcdC=D\xb5q\xcf\xf7*I\x88\x0c\x8a\x9b\xbd\xb7$'
+stp(client): sent: b"{\x92\x07\xc7#\x1b\xa6\xccMk\xe4l\xc8\xbe\xcc%FV\xf2\xe6Mi&\xdd&\x85\xc8m'po\xe4q\xed\x86ICOG8z\x87Z\xc9\xc0\x01]\x94(P<\xd8\xfa\x8d\xbb\xe2\xa2\xaa\x1a:3M\x96*$K\xbb\x16;\x9b\xeev=\xef\xfc\xf1\x9dc\x91\x89.\xe6\xc1u4\x9a\x81\xb0\xf8\x07\x17\x86$\xbd9\xe56\xd8\xce,\xc8\xb0\xb30b\xcd`\x01\x17\xef\xd8\x9e0\n\xa9\x00gb\x18u\r\xca\xe9$\x93\xf4\xdb\x81"
+stp(client): sent: b'\x89\t\xb52;\xe9\xfd\xe3\r\x1a,\xb2\x0b\\\xdb~I\xb7\x1e1\xe5K\xcb\x04\xc2ZS\x1b\x85:\x8c@\x02e\xb8\xdc\\p@\x1b[\xc1\xf9\xc5\x12\xa1\x03R\xc2\xeb\x06\xa9\x9c\xc1\x1a\xad\xcd\xc8\x04\x0f{\xfe\x1d\xb1H]j\xe0g\xcb+V\xa1\x11\xb4\x82\x92\x07S\xe4m\x85\xf9\xfeV>\xd4e\xf4\xd2\xd2Uj\xd2K(v")\x07}J?\x88v68\xcf\x14\x99_\xd8\xec\xbc\xa4\xb5OQ;\xd9\x84hnd"\xff\x00\x84'
+stp(client): sent: b'\x0f\xc27\xb5\xfeq\xa0\x15\xeaJ\xcf\xae$\xe9\xc9\x19\xf4\xb7$_v\x1f\x9e5\xce\xb4\xf9\xfd\x03\xd2\xcf\x1d\xa5B\x18\xd8\x8b\xa1\xec\xc2\xe7\x83\xbf\xea1\xce\xe5y\x8bW%D\x95VI\x9eV\x95\x02\x0b\xe9\x0cmc\xc6\xd6\x1f\\m\xcc~\xeb\x15\x12\xd4\xd3\xe6qGW\xd5\xfd\xc1P\x03_\x8b\x00M\xc8\xfa[\x9c\x00R::\xec\x8fLynH\x99\x85G\x02\xa1\xd7x\xcf\x9b\xf8>\x05\xad\x86\xb9\x8bR\x9a(\xe6\xae\xa8JIl'
+stp(client): sent: b'\xaa$w\x16\xd4ou\xb97"\xfd\xff\x00,r\xb5\x7fh\xbe\xd1\xc5\x0fFi)Q\x8f3\xc7\x05\xc8\xfdt\xfe\x98R\xb1W\xe6\xb5]Y\xa6z\xa9\xbd?\xbd`\xcc\x17\xe3\xb0\xfd0\x01\xd3\xd5fY<0\xc6\xa4\xcc\xb5\xb2\x1d\x8a\xee\x9e\xc6\xe4\xdbI\xf6\xdf\x04J\xa9B\x05`\xb6\x03m;\xf3\xbf\xf9\xc2\xf8\xb2\xbaqJ)\xab\t\x95\x95\xc9R\x17IA\xe3W&\xe7\xcf\x16\xc3\x08(\xc4H\x00$\xc6\x05\x97[\x02v\xc2J<'
+stp(client): sent: b'\x03]$\xf2A*\xcd\x08$\xff\x00\x10?\xc5\x7f\xf7\x9c.\xcc\xa5\xadj\xe6Y\x93\xa8J5B\xc8\xbb\x81\x18\x16;\x9e\xc0\xf6\xdfs\x87tt\xa7E\x91:\x884\x9dZ\x88\xdb|S5\xccrjr\xc9QY\x1e\xb5\xbd\xc4k\xafKq\xc0\x04_n\x0e$\xe3h\xa69\xb8\xb3\x8d\xa0\xfb=>{\rneJ\xc8\xc1&\xb1\x89\xb62\r7\xda\xdc\x1b\x9ep\xca\\\xbb:%\xa3\xae\x80\x80\xc6"\x9ddWYJ\xedc\xa4\xf7\x16'
+stp(client): sent: b'\x07\xfd8\xe9\xb2\x9c\xf2\x82\xb1\xfe\xed\x97\xc6\xb1\x99T\xb1P\x8a\x18\x109 }1\xa6\xaa\xa5%Y\xbap\xb4\xd3\xc9\xa2%P\xbb\xc6\xd7\xe4\xff\x00\xc4\x03\xbf\xf7\xc2]\x97r\x9a}98\x8e@\xcd(\xaai)\xe4Y\n\xf4\xba\xaf\xa5m\xd9mm\xbbo\x89\x81\xd6\xe6T\x8f\x98\xd4\x8a\xbaL\xbaYRM\x05\xde@I\xb0\x1b\xed\xefs\x89\x82\x98[+\xd5Z<\xc5\xe2e\x8c\xc4l\xca\xa0\x80\xe0\x1eq\x80}\xa6\x9e\x9a`\xd4\xe5'
+stp(client): sent: b'\xbak\x19\x1d\x19E\xc5\xefpO\x9d\xf8\xf1\x8b\xe7\xb4\xa9+,\xdd`\x95\x11\xdd\xa3\xb1\xfcB\xfcaZ)\xacb\xe2\x9f\xa7P\x80#6\x83\xa0\x82;\x9e\x018\xccPQ\xf0\xd9=\x879Fe]W\x97j\x9e\xb0\x87-\xa0H\x88\xa2\xe9\xc9\x1b\x8f8\xd1]\x04S\xcf\xf7\x89\xe7\x91\xc8_\xc7\xae\xc1~/\xb0\xf7\xb6\x15\xc5L`\x8fKLZf\xb7\xee\xd1M\xbd\xed\xe0\xe3\xae\xfb;\x93\xd1~\xcf\x8a\xba\xb695+jX\xe6$'
+stp(client): sent: b'\x85n/lj\x8d\xc8\x1a\xd66\x13"\xa1JL\xba#T\xba}$\x85\xd3\xa5\xdcj\'\xd5k\x1bcEt\xd2\xc8:n\xea.\xd6*\x86\xe2\xc3\xc6+WR\x8e\xed*\x96\xd2-rWs\xbd\x8e\xdf\x18\xc3:\xb4\x84\x80w\x0elT\x13\x7f\xcb\xdb\x17\x8ch\xe6\x9c\x9d\x96\x91\x8a\x06*\xc6\xc0\x8b\xda\xc6\xe2\xfb\xe0\xf1\xc6\x92#G\n\xba\x02A2\x18\xc3\x9b\xef\xe4c\x06\x91\x1c\x85\xaa\x18\x8b.\xdb\x15\xb7\xd0\xf3\x8dtR\xb2\x11\x1d'
+stp(client): sent: b";6\x99\x07\xa4\x16\xbd\xcf'\x7f\x81|PCv_W\x1dRMGYcS\x08\xd0\xe1N\x9e\xa2\xf6t\x00\xdc\x03\xfa\x1c^\xa4\xc9N\xc22\xc4\x00A\x1a\x05\xfd\xb5_\xbe\xdf\x9d\xb0\xaat\x13TG%<\xaa\xb9\x8c\x08$\x8d\xb4\x91\xa9w\xb8o \x8c2\xcc+]r\x99+\xe5B\x85!\x13\x11\xddH;\x8f\x9bq\xe6\xe3\x00\x00\x9a\x7f\xd9\xd5oU\xd0\x92*Y\xd85LjvS\xdaQ\xed\xb0\xd4>;\x8d\xd4}\xa8\xc9\xa9"
+stp(client): sent: b"\xb5\xc7\x9c\xd1\xf4\x10\xccB\xcaK\x80\xb2\x13\xc3\xaf\xd0\xee\x06\xd8\xd5\x9bgiG\x96\xc9M\xf7&g\x91\x08\x8d\xc7\xe1`w\xb9'\x8fq\xbe\xf8\xe5*`\x96S\x0c\xb0\t%Cb\x80\x92zds`v\xe7|\x00:\xa6\x82:5\xb2\x97vcy$\xd8\x06=\xbfN0\n\xec\xb5j\xa3\x12\xd3<b~\xfdBl\x17\xfay\xdb\x1aN\xae\x9cfK.\xa051\xed\xe7a\xef\x8dtQ2\xc9f\x85\xdc:\xd9\x19A\xdf\x7f\x18\x00"
+stp(client): sent: b"\xacBX\xe0E\xeb,\x88\x00\xbd\xd4i6\xe7c\xf1\xdf\x0c)\x91\xea\x1b\xd3\x17\xe3\x00\xaa\xa0\xd2-\xe6\xde0\n\xba\x8c\xbb+\x84\xad{\x87\xa9]\xd6\x9e'\xbb\x03\xff\x00q\xe0a\x1dW\xda\n\xca\xc4h\xe0\xb5\x1d96)\x13\x1do\xff\x00\xd9\xcf\xa8\xfd-\x85r\xa0:\n\xef\xd9\xd9t\x97\xae\xa9\n\xea/\xd1O[\x9f`\x07\xf5\xc2j\x8f\xb4\x8c\x81\x9f-\xa3D\xb9\x00I9\xd6\xd6\xed\xb7b\x0e\xfd\xeco\x84\xa1l\xda\x85\xc1"
+stp(client): sent: b'<\xd8\x9d\xfenoq\xf3\x89\xadCi-\xbf\x8c+\x95\xa04\xd5f\x15\xb5\xc1\rmL\x92\x85\xfc(IU\x1f\xfeG?[\xe1|\xb7e\xb5\xb9\x1d\x85\xac;\x7f\xa6\xe7\x07f\xd2mk\xed\xe7\x00w\xd0\x97\xb5\xfe\xb6\xc2\x8c\x97\xec8\x82\x98B*Nh\xd16\x80\x8c\x91\xa9Ckz\x81 \x9b\xfe[\xe0t\x90RW\xd4%5-ET\x85\xf6E\x95\x886\x02\xfb\x8b\xdb\x8d\x86\xf8&iK@\xff\x00u\x8a\x96Z\x97\xaax\x92'
+stp(client): sent: b'Z\x9e\xad\x84`i\x1b.\x07\xd2\x9e\xbae\x86\x96#$\xd1\xdf@\x88\x05(m\xc0\xfeg\x13\xaa\xe1\xdf\xb6\xca\xd81F\xd1\x16\x89\xa9\xdc\x94:wB-lLv\xb9^U\xf6\x81\xe8S\xf6\x8dD\xd0\xca\x05\x95U\xe3\x1e\x9bm{\x82o\x89\x8d\xb9\xfd\x12\xda\x1fg\x1c\xec\xf2J\x1aV\xea3YT\x91m#\xc5\xb0\x1aJ\x91\x15L\xd34\x85c[\x03\x1b\x1b+\xdb\xf9{sc\x8d\x94\x9fv2\xacoP\x0c\xaa\xb7%\x01e\xbd'
+stp(client): sent: b'\xfd\xb8\xc6\xe1\x96P\xd6QG\x0c\xdd[%\xe4v\x8d\x82\x86\xb9\xe3pN7dRQ\xbf\x0fi+\xa3\x96K\xe5\x8aT2\xfa\x95\xdc\xb1_?K\xfex\xdbK\xf6\x82z\x8a\xc9\xe9\xe5\x8f\xf7q\x1d\x12\x95%\x91\xf7\xb6\xc3\x9d\x89\xbf\xd3\x0b\xa2\xa2\xa1\x82\xb6\x95)\x1a\xa0=K\x88\xd5\x9aK\xe8\x1b\x8b\x9b\r\xc7\x1b\x7f\xef\x19r\xfa\xe7\xca\xd9\xf2\x99\xcd\xd9%h\xd8\xe9>\xad\xed{\xf6\xdf\xe7\x19\x16\x93\xb2sm\xc7S\xb3\x95\x97\xa6'
+stp(client): sent: b'dc\xa8\xb0\xbd\xc0\xb8;\xdble\x94t\xc5\x99u\xdc\x9b\x05<\xdb\x03\xa4\x95\x8dJ\xd2\x83\xb3\x93\xd3\xd7\xd8\xda\xc0|\x13\xc7\xbd\xb0w\x8d\x99\x10\x02D\x80n\xac\x05\xc1\xef\xce\xd8\xe98\xcc`,\xab\xa5\x8b\x93{\xdd\x96\xc0\x0b\xe3R\x83F`\x90C\x14\xc3^\xeaX\x82\x07\xb7\xf3\xff\x00\xde*\xea\xc63\xd6\x905\xc1\x00\\q\xf20\x05\x95\x8c\xeb$\x84\xbe\x83\xe8\xbd\xbe0\x00\xd6\xa36\xc9\x9dV\xa6\xaa\xae\x9c\x18\xc5\xd4\xbcm'
+stp(client): sent: b'\xad~TnG\xb69\x9c\xf7>\x9b5\xff\x00\xe3\xaa<tJ\xea\xc5_\xfe\xa4\x96\xff\x00\x97\x81\xde\xdf\x18\xd3\x98D\xe8\xed<p:\x86\xdc\r$\x15<_m\xb0\xba\x92\x92I\xa6i\xa7\x01E\xaeC\xdc\x13\xdb\x00\x1b"W\xcc\xf2\xc0\x8e\xa7Dlm :\x85\xbb\x1d\xf9\xdc\xe2\xf4P4\x10\xf4cg\x90\xea\xdbk1\'\x9d\x87a\x86t4fuJu\xb6\xc3\xd3\xa4\xd9T\x0f6\xed\xe3\x03\xae\xcdhr\xa9\x9ce\xeajj\xf4'
+stp(client): sent: b'\x9f\xe2\xbaC}\xb9#s\x8cn\x90\x07\x8e\x9cR\xc7%Nh\xcbM\x1c|\x19.\xc0\x9b\x11\xf8G\xe26\xb9\xb7\xf6\xc2j\xff\x00\xb45R\xa4t\xf9k\xbd=:&\x8e\xb1\xb7U\xd7\xce\xdf\x84\x1fm\xfd\xf0\xbaj\x8a\xaa\xf9MM\\\x86i\xed`\xe5\x89(;\xdb\xfe>\xf6\xb6\x06\xc6\xe8C\x1d\x89\xdf\xfd\xf9\xc2\xec\x04XDid\xd3b.m}\xcf\xbf\x9c\x0e-\xc1o b\xe1\xc2\xa9\x01\x87\x18\x12\x92\xa2\xc0\xf1\x84\x00\xa4\x80'
+stp(client): sent: b'/\xbf\xd3\x14,\xa4\x1b\r\xc8\xdba|U\x8b\x05\xbb\x1b\r\xb7\xc0\x99\xc8$\x83p0\x01v`\xa6\xc6\xfcc\xcb\x86\x04\x01\xe3\x91\xef\x81\x99\x03op-\xe7\x1eu\x15I\x1a\xac{\xe0)\x17\xca/)gf\x15\x15(\x84\x90\x11K\x0f\xc08\xef\xe3\x1d\x7f\xd9\x1c\xba\xae(\x1a\xb9d\x14t\xf2\x1e\x981\xaa\xb4\xb5;\xedbx\x17\xd8c\x85\x86T\x9e\xb5\x96\xa6F}\rx\xc0a\xea=\x86\xfb\xdb\xce>\xabK\x9c\xd2COL\xee'
+stp(client): sent: b'L\xaf%BR#-\x80\x0cy\n?\xe2;\xe3W\xa5\xa7-\xa1Hk\xfbC)\xa7w\xa7z\xbau\x92&\xb3\xac\x8e5\x03k\xef\x7f\x9cLs9\xc4?cs\\\xcei\xb3Y`\x8e\xae3\xd2q$\xc62m\xc1\xb7qb7\xfe\xd8\x98}\x8e}\x19\xcd\xd3\x9c\xafGF\x9ah\xadqu\xd3\xb9\xed\xcf7\xf9\xc6H\xea~\xedF\xebM!,\xd22\xa8 \xfa<\x8f\x800*\x8c\xa9\x91\xee\xb4\xa6\xa1\xd8\x13um*,w\xe7'
+stp(client): sent: b'\x9c\x0e\x0c\xd6\x8b\xa4\xd1$&\x1e\xab]\xe4\x90\xb3^\xc3\xb0\x1b\x0f\x9cs%~\x1dv\xcbVRfK\x1a\xc90\x8ezw\x0b\xa9\xe2\x94\x1e}\xafq\x8fV\xac\xa8\x91\x19b\x93\xa8\xb6V(\r\x8e\xc3\xbf\x80\xa4\xfc\x9f\xa6\x0fUJ\x82\x88\xd4\xd2\xd4\xab\xb2\xd9\\\x1fM\xfcm{\x91\x8cT\xc9$\xc5\x94\x11t!\x9bJ\x0b\x0f\xcf\x9cQ"9\x1b\xf5\x1d-\xfa\x88\x92\xa9\x00H\xb7*\x1bu=\xafa\x86\x90\xd45D%\x9eG\xea'
+stp(client): sent: b'\xa2\xf4\xda\xc4\x02\xcb\xda\xde\xf6\xbf7\xc2<\xb2\xa3U"\xd2\xc8nQ\xce\x99\t\xe4\x1d\xed\xf1\xe3\xc0\xc1\xe3\x95\xe0\x95^#\xa6H\xd8ik\r\xac}\xf1X\xb2\x06\x9a\xe9\x9aGP\xa1\xa3VbUI\xddG\x16\xf8\xfe\xf8\xce,\xa6\xe4\x06\xb1\x04\\\x9d\xbf,h\x99\x05L\xcc\xd03ic\xa8\xb3\x90H\xf6\x04\x7f\xbb\xe2\xf1\xc0\xb2\xb8\x8c%\x9b\xbb\x16\x1a\x7f0M\xb0\xc0\t\xde\xcdv:Kme\xdb\xfc\xdb\x0c)\x16-\x13MZ'
+stp(client): sent: b'!Xc\x1e\xb2\xe4\xee\x7f=\xfd\x80\xe7\x16\x9f\xee\xd44\x1dy\xf5Do\x7fJ\x89\x0b6\xf7\x0b\x7fo;o\xed\x8e_1\xcc\xe6\xcc\xa7Q*\x84\x86"z1+m\x18\xfc\xb7>\xe7\xe9\x8c\xb07\xe6y\xf3\xd5\xa4\x94\xb9hjz.\tqf\x92\xe3n8\x1c\x8ba,P\x88c\x08\x00\n\x0e\xdc_\xf3\xef\x82\x07\x0b\x1d\xc8\'~/\x80\x13q\xa6\xd6\x00\xed\xed\x89\xb6\xc0$R\xe8$\x11\xb7\xf9\xc5$}\x9a\xd6\xb5\xb6\xbf8\x17'
+stp(client): sent: b'Pn4\xf1\xef\x89\xd4\x17\xbd\xbb[\x9c`\x16RJ\x93\xe3\x14\x0em\xc0\xc7\x8cu\x1b\xdb\x81\xdf\x01w[\x0b\xed\xf3\x80\x12\n\xeeUIbm|\t\xa6R\xa4/\x8d\xb0\x07\x95\xdd\xf4\xa9\x03H\xeem\xf1\xf2\x0e*\xec\xfad@\xaa\xb3\x02\x0b*\x8d\x88\xedo\xa6\x01\xa2\x824\xa1P\x93\xcd\xf6\x03\xc6\x04\xe6X\x99&F\x04\xb1\x05/\xdf\x14\x1b\x8b\xbb\x0b\xfc`\x8e\xc4)\n\xa8\xa0\x9d\x8a\x8b\x10~p\x0e\xa2\x87y~p\xf1T\xad'
+stp(client): sent: b'\r\\\x91L\x8c\xc4\x98\xe4\xa7S\xa4\xd8\xf0\xdc\x8f\x9fl69\xaeE\rE$q\xd3$f\n\x8e\xa2\xb8\xab}(\xec@$\xed\xbf\x1b\xdf\xb5\xf1\xcd\xd04\xd5\x129\xab\x8d\xa5\xa6T\xb2\x9e\x98#\xf3\xe7\xf5\xc1jrh\x9e\xd2\xd0\xca:zn\xc8Z\xd6\xb7\x83\x85rI\xfaV+\x96\x17\xed\n\xd2\xd7ffA[J\x19\x14#\xb4R\x17W"\xfe\xa0m\xe2\xdf[\xe2`t3R\xd3S\x81<+!s\xd4R\x83U\x81\xe0\x1f'
+stp(client): sent: b'|L1\xbf\x94e\x9c\xcdLs("\x92j\x96\xd5\x1d\x82%\x80rO\x17;\x8c-\x87\xadSIQ\x1d\x1d\x08\xa4\xa5\x86\xfdII\xf4m\xc6\xa6<\x9e\x06\x04\xee\xe6\xb9\xaajK\xbd4/r\xb1l\xcc/o\x1f\xef\xce7\xe62%U-\x0c\x19d/\x154 \xc8c\x9a=\x95\xaf\xcd\xbf\x8bo\xcf\x0b\xfdM\xe8\xb6\\\xae\xa2\x96\x84\xd5\xd4A\x14J\x08\xb6\xa9\xc6\xb6\xf2B\xde\xe7\x1b\xa9\xa0\xaa\xa7\xcb\xa5\xab0:F\x00\x00\xb8'
+stp(client): sent: b'\xb1`}\xbb\x8c,\xaa\xaa\x95\xb3\x17\x968\xe3YBiw\x02\xfa\xdb\xbb\x15<_\x1a\x05}\\\xb1G\x10Gi\x81\x1a\xa5YX\x02<r\x06\x1b\xf4F\x93t3\xa3\x8ad\xa7\x88$z\xae\xc1\x8ch\xa6\xe1\xb7\xeeN\xdb\x7flm\xea\x07\x8c\x19\x01\x8e~\xe8WI\xdbc\xb7\xcf8\xe7\xe9\xa9\xd9\xabn\xc6F\x0f\xb0`\xc3Y\xf1\xa4\x9e\xf7\xc3CO\x99\xc3\x1d<\xf5LZ0l\xd2\xbc\x8b\xeb&\xe0m\xc9#\xf3\x1b\xe1T\xbeF'
+stp(client): sent: b'<O\xf4o\xa7\x99\xa0w*\xfa\x04\x89\xa1\x98\x93d\x17\xbd\xf6\xdf\xe6\xdb\xda\xf8\xdb]\x98\xd3e\xd0\xa3\xcd\x02\xcd1\x00F\xac7{\xf7\xb0\xe1|w \xe1X$\xb3w\x8c\x8e{\x1e\xc7\xf9\xe1^n\xaf\xf7\xf8\xe7`\xd7`\x06\xa2M\xc0\x1cs\xfac\xa0\x90y\xa7\x9e\xb6\xa5\xe7\xab\x95\xa5\x99\x98\x92M\x82\x80x\xb0\xedl\nV\x0b}D\xea\xf3k\xe0w\xb0\xb96\xdf\x9b\xe0n\xc4\x9ev\x1cbM\xd8\x172\x02\x08\xd4\x7f\\\x0f'
+stp(client): sent: b'Q\xf2\x7f<y\x88.]Tw\xdc\xfc\x0fo|a\xa97\xc2\x13b\x07s\xc5\xb7\xc5\x19\xc6\x92\x01#\xe4`\xeac\x85\te\xd4C]E\xcd\xc9\xde\xc3\xe6\xdf\xcb\x0b\xa5\x9aI\x1d\xc2\xc2\xfb\x9f\xc3\xa4\xecp\x14x\xe9\x06y\xb4Gk\xde\xe7\xce\xf8\xf2\x18\xe3\xa8\x8aU\x9eR\x0b\x1f@\x02\xc63\xbe.\xb4T\xcac\xfb\xfdP\x88\xb1\xff\x00\xa6\xa7\x8f\xae\x06\xd9eLu\x0c\xcb\x1bI\x11;4n\t\xdf\x83\xb6\x0f\x01D\xa4Y]'
+stp(client): sent: b"S\xd5\xde\xa5\xb5F,:\x9f\xf2\x1d\x87\xfb\xc6\x07R\x96X\xe7\xdd[[ \x0b\xc8\x03\x8f\xae\x19t\xeai\x13R\xa0\x91\x08\xfd\xe0$\x02\xa3\xcf\xb60\xd6\xbf\xeeY\x9e'FiC\xa9$l-k\xdb\x18\xa4\xdb)\xadD\xactuU\xcb,\xb0\xa6\xc87\x00\x0b\x9e\xfc`\x954\xd3;\t\xa9\xf4<b\xdaU\\j`\x00\xfe\x1e{_\x19\xa9b\x91\xaa@Fu`\xba\xc9\xb9\xdc\x0e\xd8\xd1O_,.e\xe8\xc4eSbI\xdc"
+stp(client): sent: b'}p\xc4\xd3Ul\xbe_%Kf\x10\xa5B\xb1\x89\x8e\x95[q\xb1\xb6\x1b\xd0L*)\x04\x92\xb2\xb5\x89BXqk\xda\xe3\xe3\n%\xac\xa9\x96H\xea!^\x8bFA\xb2\x9b\x9f\xa08\x94\xeb<d\x98\xa5b\x92)\xd4\xac\xa2\xf7\x06\xfb\x83\xc6\xfd\xf9\xc2J\n])\x1c\xd1\\:\xfa\x1a\x0c\xb6\xa6\x0e\xadOJ\x07c\xf8D\x04\x83\xef\x89\x8el\xe6\x15s\xfa\x94\x18\xc0\xda\xc2\xd8\x98\x97\xe3\x91m\xb1\x93\xefiE\x08\xd7\xd4\x9a\xae'
+stp(client): sent: b'K\x14M\x1e\x94\x00Z\xf7\xfe-\xc1\xf8\xe4cv[U\\\xf4\xc4\xab\xc6\x0c\x8c\xfd9\xaaKj=\x8d\xc8\x07\x83\xdf\x15\xfb\xa5me%:\x0e\x88\x0c\x08\x8b\xf7\xa5\x1d\x94\x9b\x95\xdcZ\xe7\x9d\xf0\xb2i\xf3\nA\xf7Sz~\x99\xb0\x8d\x97\xd4<\xef\xdf\x15\xbd\x88\xa9\xbf\xf41\xaf\xc9\x9a\xa71/H\xcbM\x13X\xc9$\x8fr\x08\x1b\xb5\xbc\xf7#\x16\xcb\xd6$\x99\xe1\x8du\xa2=\x91\xa3&\xce;7\xb6\xad\xc8\xfa\xe1M,\xad='
+stp(client): sent: b"d_y\x92J\x90\xc6\xcc$oM\xc1\xdb\x1d\x04U\x94\xd0M\x02H\xfaU\x9bh\xe3K\x93\xf4\x1f\xd7\x03\\\xa3b\xa2\xfeF\x1a\xc4\x9az\xc6\xa6X\xcd)T-\x0c\x8a\xff\x00\x88\x8f>6\xc7\xb9=,\xf5\xba\xa1\xac\xac\x9646WC}\xcf\xce\xfb\xdfs\xe4`\x02\xb1js\xd9f\x90)\x89\x8bG\tq\xdc\x9d\xbf\xde\xd7\xc6\x89\xf3U\xa4\x9c\xc1:ZH\x9cj#\x96\xb6'=\xf5\xa8\x96\xc7K\xac\xf6\x9a\xd45r\xd2<\x81"
+stp(client): sent: b'\xe2\x85\xc2\xa3\x01\xc8?\xe7\x17\xcd\xd3\xa9O\xae;\xec\xc2\xc4\xf3\xb6\x03\x9aU\xc5\x9aI\x1dl1\xe8\x11\x80\xa8\x9e\xdf\xdf\x06\xa2e\xa9\xa2\xe99\x02\xc3\x8e\xe7\xbf\xf5\xc5\xb1\xb6\xa3\xdfNl\xf1\xa7\xc1\\E\xd9\x08\xbd\xecw\x07\x05\xd1\xe8\xb9;\xf8\xc1\xd5\x12\x1fO\x07\xcf\xb63\xd5\xcc\xa0\x11}\xc7|\x04\x0f\x1bh\xcb\x7f\xa3\x00\x12G\x1d\xf4#32\x9b\xb8;\x9bq\xb6\x04^I\xe4X\xa2\x1a\xd8\xf6\x1f\xe7\x1eL\x8c\x88]\xc6\x80'
+stp(client): sent: b'\xa6\xd6cbO\xb0\xefl\x05q\xc7\xb63\xa2\xcc\xe9\xe1\x01\xe3\xa7-.\xc3\xa8F\xad\'\xbe\xe7\x18\xcdk\x99\x1c\xd2RG\x11bX\xcaT\xb3\x03\xed}\x87\xfe\xf1\xe5\x14\x12T\xb8\x82"Q\x95u\x9b\xa9\xd3o>{\x8co\x83*\xb3\x833\xa9\x94\xec\xa5\r\xef\x89\xcb"\x8f\xa5\xc5\xf0e\xd1W\x13,\x95\x0e\xd2\x13w[X\xdb\xe0\xf6\xc3\xaaw\x81#\xe9\x02\xb1\xf4\xd7\x7fI\x1f;\x9ep\x19\xf2\xf7\xa0\x84\xc8\xd7`\xe2\xc5/f'
+stp(client): sent: b'\x17\xeeX|~\xb8\xc5MY$\x11\xcd\x0c\x83\xa9\xea\xbcK \xd6\x17\xcd\xfe\x98\xd5%5h\xc6\xe2\x87t\xb5t\xd5\xd17F@zDj\x0e\x07\xf4\xe7\xeb\x84\x19\xaa\xc74\xcd\xd2%\xa2\x03\xd6\x13\xfe[\xf9\xf68\xa24\xe1\x99\xe0\xd3\x1b\xc8\xa7XQ`\xde\xc0\x0e1h\xe5\x10\x15\x0f\x19U"\xcda\xb2\xb7k\xe3R\xa0\xdfe@V?D\xcfOQ`-\xea,AQ\xf4\x1d\xce\x18dt\t<\xc1\xe6\x8f\xad\x1ck\xfb\xc0\x1a'
+stp(client): sent: b'\xda\x8fnq\x9ah\x8b34,\x19\xc0\x16(\x0e\xa3\xbf\x8ev\xef\xf3\x87\xc9\x98\xd2\xc1N\x82\xa2:\xc5h\xc2\x82\xad\x15\xedo\xf7\xdb\x0b\x95\xba\xa4\x18c\x14\xfe~\x1e6MK$\x80\xa5(\x88\x8f\xfc\x97#\xce\xd8[]Ji\xa7WiA\x8c\x1b+\x11e\x93\xc8\xdb\x1dT5\n\xf4+Q\x10]\x0cA^\xa0\xd8\x8f&\xdd\x87|q\x7fx\xfb\xc5[\xbc\x8c\xaa\x85\xee\x0b\x1bj\xdf\x92{\x13\x88\x7f\x1d\xe4\x94\x9d\x9b\x9e0\xaf\x8a'
+stp(client): sent: b'4\x91\x0c6UX\xecw\xef\x89\x8f%\x8dU\x80\x91]IPF\x90\x18X\xef\xc8\xc4\xc7Y\xc6\tU\xe4\x88\xc6\xf28Cb\xa0\xee\x00\x1e\xab\x10y6\x17\xc5\xe4\x9f0\xcca"G\x8egctb\xbaXo\xb8\xf7\x16\xc4\xc4\xc0X\xc6\xd4\xb3S\xa1YQT\xb1\xfe\x1b\x7fLoH\xe1\x8aE\xadV\x99\xa6.P\x12\xdc\\X[\x13\x13\x18\xfc\x1f\x07\xd1\xe2\xfd\xda\x19V)\x92\xc4G\xa1\xac7oQ<\xfc[\x15\xadf\x95D'
+stp(client): sent: b'\x13\xb0\xfb\xc50\n\x18\r\xa6\x8c\x9b\x0b\xf8 \xf9\xc4\xc4\xc2E\x95~\x84\xa11\xb2\xc8\xb6\x03\xa7fck\xed\xf1\x8aQHb\x90\x13\xc1f\xe3\x9b\x03m\x8e&&(&^\x95\xaa\xa8]mc{\x8dJ\x0fa\x8cD\xb3\xd8\x92\xda\xc9\xd8\x00\x05\x87\xcfs\xb1\xc4\xc4\xc0r\xafG0\xe5\xd4U\xb1\xf5\r3\xc6W\xff\x001%O\xce\x07\x98\xd0\xd3\xc1\x97\xc8\xe9\x18y\xd8\xaa\xac\x8cK\x1b\x93\xef\x89\x89\x80\xea\xaa0\x99\x19j \x99'
+stp(client): sent: b'?xbE\xbd\xc9\x1a\x88\xbe\x0esyZV\x95\xa1UP=J\x1c\x8b\xef\xce&&\x16P\x8b\xf4\xd3MFa\xad\xebaq&\xa4Cb\xedp\x86\xfc\x01\xfdp\x05\x8d\xd1\xdd\x90\x17\xd2\tk\x91\xb6\xd7\xfa\xe2baa\x15\x15\xc3\x9f#\xb0\xa9\x1a\xacWay\xc0\xb9\xb6\xda<o\x8a\x90\xf3\x03N\xce5\x96\xbf\xb1#\xcd\xb111Bv\xc1G(\xa9\x921\x0b\x04\x8dE\xcb\xe9\xd4\xdb\xed\xc9\xdf\xb7l\x028dv=I$,'
+stp(client): sent: b'\xe7\xf0k\xe7\x13\x13\x18\xca\xa7h`j\xeb\xd2\x81\xa8\xa2\x95\nA\xaa&\xda\xc7Q\x1b\xad\xfc\x7f<-HV2\x8a\xf6:B\xdd\xad\xc5\xfcbb`\\\x1a\xec,r\xc2\xe85\xcc\xe8W\xd3\xa5F\xc0bbbcL\xa3\xff\xd9'
+stp(client): uploading complete
+stp(client): connection shutdown
+stp(client): socket closed
 
 End of task11 Testing
 ----------------------------------------
 ----------------------------------------
 Start of task12 Testing
 
+stp(client): socket created
+stp(client): sent: $name:sample2.html$
+stp(client): sent: $type:text$
+stp(client): sent: $size:406$
+stp(client): sent: <configuration_complete>
+stp(client): received: <configuration_approved>
+stp(client): uploading ...
+stp(client): sent: b'<!DOCTYPE html>\n\n<html>\n<head>\n  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n  <title>Spoon-Knife</titl'
+stp(client): sent: b'e>\n  <LINK href="styles.css" rel="stylesheet" type="text/css">\n</head>\n\n<body>\n\n<img src="forkit.gif" id="octocat" alt="" />\n\n<!'
+stp(client): sent: b'-- This is a sample html file -->\n<p>\n  Network Programming and Applications\n</p>\n<p>\n  Princess Sumaya University of Technology'
+stp(client): sent: b'\n</p>\n\n</body>\n</html>'
+stp(client): uploading complete
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $name:sample4_copy.png$
+stp(client): sent: $type:pic$
+stp(client): sent: $size:4520$
+stp(client): sent: <configuration_complete>
+stp(client): received: <configuration_approved>
+stp(client): uploading ...
+stp(client): sent: b'\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR\x00\x00\x01\x06\x00\x00\x00|\x08\x03\x00\x00\x00\xbc%\xee\x1d\x00\x00\x00\x81PLTE\xff\xff\xff\xcc\x00\x00\xd0\x00\x00\xc9\x00\x00\xfe\xfa\xfa\xfc\xf4\xf4\xcd\x05\x05\xcd\r\r\xfa\xeb\xeb\xfd\xf7\xf7\xce\x18\x18\xce\x15\x15\xcd\t\t\xf5\xd9\xd9\xcf\x1e\x1e\xce\x12\x12\xd1((\xf9\xe4\xe4\xee\xbe\xbe\xd100\xee\xb9\xb9\xe8\xa0\xa0\xf4\xd4\xd4\xd8FF\xf1\xc9\xc9\xe8\x9c\x9c\xddmm\xd255\xf6\xde\xde'
+stp(client): sent: b'\xd0##\xd1,,\xd3>>\xe6\x95\x95\xdezz\xda__\xe2\x8b\x8b\xeb\xb1\xb1\xd8UU\xd6LL\xe9\xa9\xa9\xe0uu\xd9dd\xe2\x85\x85\x14\x85\x060\x00\x00\x10\xe2IDATx\x9c\xed]i\x83\xd3<\xaf\xad\xe4&N\xe34k\xb34n\xe2\xec\xdb\xff\xff\x81W\xce\xc0\x00w:\xa4\xc3\x0bm\x87\x87\xc3\x17\xe82c\xcb\xf2\xd1\x91,\x87\xdd\xee\x1f\xfe\xe1\x1f\xfe\xe1\xaf\xc4\xc1\nN\xd6\xa3\x07\xf1hXa\x8d\x80N\xb7\x7f\xf4'
+stp(client): sent: b'@\x1e\x89\xe0\xdc\xf8X\xa0\xcb\xa3\xe3\xa3\x87\xf28\x9c\x9a\x1e\xd1F\x1c\xd0\xc7\xf8\xd1\x83y\x0c\xf6VK\x06@4\x87\xb3\xb5K"\x14\x87G\x8f\xe8\x018\x9c\x16G\x1bA\xe6\xdd:\xfd\x04\xe1\xf4\xe81\xdd\x1dYU5\x93t0\x8d\x93/\xcch\xcd0<vL\xf7\xc6a\x9c\x07\x1c\x1a\x05y\x18|{5\xf6\xf9\x7f\x88$\xf7\xd6\x02\xbe\x04a\x16\xf5\x8fR\xe1\x92\xda\xcb\x83\xc6tw\\\xc2\xdc\xb5\xd1v\xfd\xa9{C\x88#\x0e\xc1'
+stp(client): sent: b'\xb5\xef\xfcm\xd8g\xdd\x80=\x89\x84\xe1\x9c]\xd1J\x86\xeb\x87\xf7\x1f\xd4\xbdat\xcd \x1dSa\x1f\xbe\xb3\xe8%\xd6\xc6}\xc7tw$y\x1f\x95\xa9\xa2\xfdo\xbd+\x9aG\xee\xff\xcd$y\xb0N=82\xc5h\x1e\x7f\x9a8\xd4\xf0\xf7*I#\xabR\x1f\x95_\xf4\xf15F\xf8\x1eG\xd1\xfc\xa5\xf9UP5\xae\x8f&b\xf3\x1e#|\x07\xa3\xc6\xe4\x0ec\xba;\x92\xc6u|\xca\xa2y\x15\xdc\xb4\xcc!6\x7fzH\xf7\xc6'
+stp(client): sent: b'!\x88\x15\x96\x05\xf6\xe9\xd4\xdd\x1a\x00\xf6\x93\xfc\xbb\xca/\xc1i1\xb1\xa4\xf8\xd8\xb4\xd9\x07\xbev\xe4\xe7?6\xa4\xfb\xc3:\x0ffQ\x00\xc7!|?>^E\xdb\xfc5\xd2!\x1cJ@\x14\x8aW\x97\x0f\x97\x10\xce\xfe_\x91n\x1b\xc7\x8a(\x91"C1\xfc\x92\x06\x98p\xf9\xfc\xeep9\xe5\x02tUM\xb6\xe1\xc6f\xb0\xc2\xab\xb1\xf1\xec\xf6\x9f]I&\xcb\xe4h\x13@\xdfmM\x85\xe4\x84\xd7_{\xc3Bw\xfc\x03C\xbb\x1b'
+stp(client): sent: b'\xacnh\xa6\xbcA\x80\xdc\xdar\xebll\xa0\xb0\xd9\xe5\xda{3\xcaO\xaa$\x8d \xabC\xc0f\xee\x91\xf7\xe3\x06+\xee\xad\xcec\xbd\x02\x0e*\xbf\xf6~\x86\xf0\x91\x08\xfb,\xb0\xb2\xb1v\x00\xce\xb9\x9f\x0e\xe9\xb2E\xf3V\xd8\xda,r\xfb\xc6\x89L\x9b]\x93JV\x8fWw\xcb3\xc3\x08\xdb\x99R\x06!\xb0Ia8]\xf5\xf2\xefa\xd5\xb4i@Jh\x84\xf2E{5\xcb\x88\xd1\xfc\\J2\x9b\xd2\x02}.\xd0\x84\x16\xa7'
+stp(client): sent: b'\xe3-\x83\xef\xa1\x17\x00\x0e\xcc\x00\xef\x89\x8a\xcc\xc7\xea\xb7\x0e\xf3O\xc2J\x16\xad\x0e\xbc\xc8-(@N\xf1\x8d\xb4\x162\x1b\x80\x97\x9e\xff\x13\xcd\xbc`\xff9\xa4\xc3>9J\x92\x07ej\x9b=\xb7\xd3%\xdc\xa0E#y\x9dW\xe1G\x91\x13\xb9\xf2\'f8\x99\xeegP\x92A\xdc\xa6\'4\xc9\x17\xec\x02\xcdeS#X\xf1d\xbf\x92\x7f\xe5*\xe9\x94\xb6\x9b\xbf\x1f\x0e\x0e%.O\x1f3\x93I\xd1\xfcO\xe88X"\xe4\xc9\x96'
+stp(client): sent: b"\xff^\x96\x94G\xce\xfc\xf5\x9f\x01S>q\x03\x14\xf5N\x17\xa6\xaeNw\xc1h\x93l\x1f\x89\xbd1J\x8eQ:\x98gD\xe4\xc3\xb8\xb9\x87\x93\x88q('x\x8d\x8d\xfb\xc5\xe1\x8eh\x06h.\xc9\xc2\xfc\xab\x8a\xd1B|b%ie\xad\x83f/\xb1\xc6aAUw7|'a\xc2\xb6}\xee\xc1\xf2\xed\x95\xd2S\x8e*\n\x97A\xc3\xa2\xab\xee\x90\xbb\xe9\xb3\xee\x8a`\xcc\xd7Sx7\x12ySW\xe3\x8dECU\x94\xc0}\x1b"
+stp(client): sent: b'\xe4\xeb\xcf\xe9]Q\xb8\x11\xe5\xe2\x11\xf7\x81]\xfd1!\xc2s\xd6$\x83)u\xd6sx\x81\x9e\xad\x96\xcb\xcd\x11\xed\xc4\xfa\x02d\t\xee+%\x9eI?\xf5~IYE\x01\xc0\xd4\xd5\xdf\xa6\xe0\xaa\xd0~,\x0eI\xaf-\xd0`\xa4\x84r\xfcv\xcb\x06F\xd2\x0e\xae\x9d\xaeg\x12\x86\x18\xca2\xca#\xfb5B\xea2\xad\xe9r%A@1__u\xa2\x9eg\x93\x0e\x97\x8e\x16\xce/\xd0CRJM}\xda\xd8\xb5\x87$\xf6\x19h'
+stp(client): sent: b'\xb0Z\x7f\xf4\x0c\xe9\x00\x83\xec\x8bWw\x98\x80s\x99\x16\xfd0W\xef\t\xcf\xac|2%y9\xc7C\x14\xe5\xaaA\xec\xfb<\xdeJ\xfe\xac.t\x18H!\xc04\x81i\xbe?\xaa\xde\x03\xa9\x00^\xc9?\xc4\xd2-\x96\xc8/\xdf\xe7\xd8\xfd\x8c\xfd3\x91\xe4q\x1c\xc6\xc1)",\x10\xea\xe3\xd6\x81\xcb\xa5\x1d\x86\x90EQS\xd3\xb6\';4\xb4\xda\xc6Tx\x00\x83\t\xc3\xeb\xd2\x9b\xa5\x0b\xb4\'~\xd6\xdd2b\xf14\xa7\xdb\xc9\x94'
+stp(client): sent: b'\n9/\x1e\x92T\xf0\xdfu\xe0W\\\xa4\x03\x91ZJ\xd9\x82+\xa4Mf\x00\xbd\xde#\x99\x04|0\xd9\xeb\xbc\xe2>\xa7\xd0\xe1\x83x?\x1c\x18>\xb6\xbfg\x12\xff3\xe2\xc5\x07,O\xb4\x1d\xe4|K}\xd0b\x8e"\x0b\x80W\xd6\xd5@B\x91R\xc9\x9c\x88\xce\x1aJG,\x1c\xf8k\x19\xc1B\xe9\x81\xed\x03\xe8\x99\x1e.W\xab\x965\xa6O\xd0\xf3q1.1G\x171\x0e\xb1\xdff\x84qu\x95\xda)A\x90\xb3\xcb`w'
+stp(client): sent: b'\xa4I\xba\xa6kk\xf3-e\xcf\xe6\x1e\nxU\x925E\xd0BrH/\xc6iI\xcf\xd78\xe2\x82x\x8b<\xfb\xa3\xa0<\xa0I\x0b,\x1d9\xed\x83l\x93\x11\x96~%C\x12\x886m\x04\xf2\x87x\xb7\x1b\xc0qi\xc1\xf5z_D\x0end\x17\xf0\xea\xe6a\xa1L3U\xe0\xe4\xb9`i\xef_\xfb\xa9\xa9\xfd\xe0Z\xdc\xb1\xb7\xb5L\xd2\x986\ta\x1f\xf66x`\xea\xbf\x1b=\xf1\xa2i:0[\xbbL\x17\x16\\\x17\xf4'
+stp(client): sent: b'\xebRJ\x9f\xcc\x02\xafR\xc9jL0\xb90\xc16\xd9P\xb3\xe5\x1a\x1b\x9ed\xff\xc0\xfc\xca\xca\x88\x0b\xc8\x9f\xeb\x08\xcb|+\xed7.\xa3\xb7.?\xc0:\x93\x8e\xadv\x00\x1e\xee\x0c\xa9\xabm\x8a\xe9]\x11\x8aT\x98$\xa8\xf9k\xcc\x1c\x81L\xd7\xbb\x10\x15\xc3\x98\xc3p\xad\x03.\x90P\xff\xc6y}\x08V7\xeb\xfe]\xbb(\x87e\xfb\x08v?\x9a\x8c\xdb\x1c\x14\x1b\xca5\x93>\xaa\xd5\x0c&,\xfb\xfd\xa4#&\xac\xe1\xc1('
+stp(client): sent: b"mJ\xae\\\x0f\xf2\xafd\x984`B\xd4\xb0\xa2^\x14\xbb\x9e\xa9\xee[\xe4\x8f\xe9\x1e\x0e\xda\x14P\xa9\xea\x1c&\xc7\xcd\xca\xa2\x9e\xd1\xc8L\xa2B(\xce\x8b'W\x0f\xae\xd9j\x06\xc7\xb3\x12\x97\xcc\xc0\xcd\x97\xd4\xe9\x1c\xf94k\x17\xcaW\xcb\xd6\xc4\x98v#\xc63\xfb\xb1G\xf4;\x84\x02\x1f!\x1d\xacq9\x87G\xcb\xb8I\xcc'}C\x83\xcf\x04p2C6\xd2\xbaW\xfa\xe5\x90&\x0f\xe0\x08\x90C\xcbt\xe9\xd5}\xf9tQ"
+stp(client): sent: b'\xacf`\xc4\x9d\xc1\x12\xe9\x0f\xea\xd2\x8b\x18GV\xbd{\xe2}\x98\x9f\xbb\x08\xb5\xbf\x8c\xc4\x06\xac\xdd\xef.=\x88\x88\xc5g\xe6\xf2U1\xea\xca3x\x0e\x99\xc1\x86\xb9&\x8eL_|\xeaP\xbb\x8a\xbb))\xc9Q1`\xda\'"\x80\xb2\n\x7fz\xda\x9b\xf9O\xdc\xfab\x85-\xd0,\x89\xe2\x92\xdd\xa1\xe56\xc9L\xda\t \x9c\xd5\x83c\x06\x85\x0b\x9c\xa2\x05\xa5Sj\xf9\xea\xee\x9d\x0e\xa4D\x9a\xa2\x04?\xb5\x9b\xf5\x83C\xb5\xd5'
+stp(client): sent: b'\x11\xd6\xb4O[\x8b[\x1aJ\x9d4\xfb\xf9.\xc5\xbf\x8a\xbc\xa2\x91z#pVkB\xdb3p<\xe0\x8e\x03\x0c\x97o\x07\x11VZ((\x0b!\xf3\xc1\x95\xb6K\xd61\xb6\xcfvv\xcdv\xbc\xfe\xfd8\xdc\xb4\x11u\x1c\xd4\xdc\x07N\xc1:\xcd\x05\xc3\xa0S\x06\x1d7\xd71\xcfk\x8em\x82\xf7\xe3\xa6\xaf\xc1w`\x08\x87\xc2%Gb7\xb5\x88\x87\xbdY}|\x16\xbf\x84\xfd\xde0\xac\xe0\x18\x8e\xf5\x92\xdd\x16\x9dF\x06\x03\xf1\xa2'
+stp(client): sent: b'\xb6D\x14\x05\x96Ty\xc49\xf4\x94E\xb2J\xbf\x7f$\xe9@\xfe\xf0\x9dFXa\x91\x94\xaa\x8d\x9c\xd1v\xf2\x87\xed\x8e\xb0C\xd0\x9a?\xcd@\x7f\'\xac\xb0j\xf39EPWu\xdc\x0f\x1f\xfdz\xfb#\xf0 "\x99l\xda\xbe\xeb\x90<\xe8j\tEC\xebO\xdc\xf8\xaa$_\x93\xec\xef0p\x97\xfcFA\xdanG\xc1\xe0\xa4\xb3Zu\x9f\x06j#n\x94\t$\x19\xf3\xcdmz<\xcf\xe5\x97\xd1\x1f\x16\xa2\x86\xa1\x87\xd4\xf6\x89'
+stp(client): sent: b'\xee\x92]\xc18\xd3\xb1q\xa0LzU\x05\xdd*\x1d\x88\x10\x7f\xcc\xa2CF\xdb\x81\xd5\xa7\xedT5\xa9r\xadc\xe3\xbb4\xbd\x18q\xfe\x928\xd4\xc7-\xa3\'\rE7\x9d\'\xac\x08\x89\x16\xdc\x82\xe2A)|8%l\x88\xfc%\x97ZE\xc1\x1a\xdfV%\xa9\xa3B\xf5\x03\xd7\x18\x03c\xdb\xbf\x8a~|^\xf4&\xf6\xe3=\xc8\xd1H\x1a,\xcd\x12\xa3t+\x99\xdd\x07\xa3M\xbb\x9d\xfe\xb0/1\xde"\x12\xa4x\xe8\x11\xed\x8f!'
+stp(client): sent: b'\x8b\x8b\xde1\xa7\x8eB\xa1C\n|u\x00\xed\x1b:>\xc2\x8f>\xd6\x9d\xb7)\xd88\x97Z\xca\xa7wQ\x8f\xc7qF4\x11\xfa\xcd\xac\xe1\x90UH\x93\xb2u\xb2\x08\xf8\xc5Kc\x9a\xa1G\xf3\xac\x8f\xac\x00W)\x8a\x00\x99\x02\xe1\x0e\xeeK&\x9d\x15+\x85\x9a\xec\xe3\x9dpV\x92uc|\x17#d\xed\x80\xa4\xfa1\xef\xb6\x03w\x90jM\xb8.m\x14\xf9_\xaaGA\xc4K\xbd\xdcq\xcbdD\x9c\x00\xb6\xaf\x15\x15\x8fl\xd0'
+stp(client): sent: b'\x02{\xb7\x9f\xd7\x94\xd3\xfc"\xa4\x9f\x12]\xea\x83\x8f\xba\xbcz\x0b\r\x1b3\x134%[x\x1e\'\x01\xf8e\x99\x1a\xae\x05\x93\xeccf+\xa1\x06\xf0\xcb1\xb4M\n\x9b\x1e|Q\x92\x94K\x90\xa5\xae\x9fH=\x01\x8e=\x9a>\xca\xfe\xe6[\xe1\x943i\xc1\xe8yk\x9e\xac^x\xeb\xc2J\x80<g\xd9@\x13/\xd3\x88\xc3\xb2\x1b@\x17\x9e\xd8\xb4\x1a\x97\x81\xd2\xf9%\xdc\xd6\xc3\xb4\x0f\x12\xca\xe7\xee\x99D-D@}\xbd\xb5H'
+stp(client): sent: b'\xfbo\x8e\x12\xda`G\x0e/#\xc7\xf6m\x87\xb7/\x83%+\x0c\x1d\xe9\xc7@\x96\x9e\x80\xb9$\x8dpf\xdc\xd3;e\xddh\x0bSz\xdb\xb0\xfe\x06\xba\xd7\xd7\xf5\x87^\xdd\xb3\xd2d\xd4Xlh\x04#\x0b\xab\xea<~u\x97K\x01v\xe9@:\x91\xd3\x17\\D/\x16\x1cY\x1f\xf7L\xb1KL/R\xa6\xcdU\xb2[\x13\r\xf3EI&\x0c\x04c\xcdx\xdc\\\xe2c7\xf7\x889\xf7\xce\xf7<\xab\xab\xd0\xfe\xa9+\x18\xe7s'
+stp(client): sent: b'\x13y\xbc\x91\xe6\xd7\x14\xb7\x06\xd2\x08\x82w\x91W\xae\x9d[\xeb\xc4\x82(\'\xe1X@u\x98A\xd0\xb2\xfb\xc3i\xd7\xaf\xc5&Xk\x8fF\xcfX\x9bl\xbbB\xd8\xf6\x85\\\x10\x9a\xf8r\xd7\xc2B0\xe0O:\x92\x0fg\xce*\xe6\xfaz\xbe_\xb3\x9f\\\xd7\xd9\x05\x8c\xa3P4o\xf1R\x81\xdeWL\x97V"e\xe8z\x0b\xcd\x9f\xb5\xda\x03\x00J\xf9r&\x13V\x9b\t\xca\xde\x08\x8b2n\x10\x97\xea\xfe\xd7\xccr,\xdeU\xea'
+stp(client): sent: b'AO3\xa9)B\x924":|1\xd7\xc9\x05\xdf\xa7\x04a\x1fw\xe9\xe2)\xef\xa5k%\xd3\xb9\x13\xb7!&3\t\x9d\\\xe6\x06\xe5\x12\x9c\xf8\xf2FZ\xb4\xb2\x1a\x1bu\xee`\xbb\xec\xfb\'\x10\xa2\xed\xbc#\x1c/\x14\xf9"\x98h~$\x97\xec\xafZ\xd8\x1a<O\x81\xc3\x82`Q\x11/\xc4K\xb5\xd8\xcaa=\x90\x9b\x0e\x16\xb3m\xdf\x87\xde \xc2\x10\xa2T,\xbf\x81\x16\x13\xdd1\xe2\xaa(\x8d\xaf\xde\xce\xbd\x03\n\xa1\xdc\xab'
+stp(client): sent: b'\x0e\xabg\xc6\xa5kWU4\x17\x12\\\xf6\xe5f\xa8J\xc9.\xde\xb4\xb7\x06\xf2\x15\x9fhrU\x9e\xa3.A\n\xcf\xcfH:\x9bb\xd0M+G\tl8g\xdbV\xb0*\xe9\n\xc7i"\xec\x1e\xd6\r\x1bcj_\xef\xd8.|\xad\xfc\xd4n79Z\x00|\xbdO?\x11\t\xa8\xd8\x1aw\'\xb0\x81\x9bE;j\xa5h(SI\xaeK\x0c\x16eR\\\x1fH\xed\x17\x1eo\x1f\xee\x18\xb1ob3a\xe147\x168\xfe\x08\x0e'
+stp(client): sent: b"\x08\xaa\xb8\x96J\x9c5)\xb8\x8e\xd2\x1b\x9f\xc9\xf9\xb5\xeb\xf5\xc4h\x91\x17W\xec\x8c\\s\xe1\xe9T\xacm+\x93)I;\x81k\xedB\xae\xcf\x9e|Z\xe5\xcd_n]&\xa9\xb3\x19t\xe7\xf9\xb1's\xfbV\xf8j\xbe\xb2\x0eg\x96\x92F\x88\xf4\x93$\xf2\xefk\xa5\x17\x8a}\xad\x02f\x90\xbf\xd0\xbc\x15I\x82\xcb\xfar\xc3W\xb3\xec\x0e\x130\xd2\x11\xdb\xbf\xfax\x9ar.\\Rp\xaaz\xb8\xcc\xce\x04\x96\xc5\x15v>1\xa2"
+stp(client): sent: b'y\xeeB~\xd8\xfd\x10J\x82\xbek\x95\xeb@\xb7\x0bS\xae\xeb\x08&[\x83\x81t\xe9E\xd0E\xe6#\xd470B\x98+O\xf5\x8b*QvOpbo\xe4h\xab+*7\xa199@\x8a\xd8\xcf\xe3.1\xf6\xaf\xfepl\x18i%!S/"\xce \xc5\xf0r \xd7\x91\xb8\xe8I?\x93\xf7l\x0b@\xddUj\x9b\xb8\xccS4<(6\xfc\x7f\x9c\x04%\x98o\x83\xa6Q\x93\x19L\xc8\xb9[2;eE\xdf~9\xd0\xaf'
+stp(client): sent: b'D\x03%\xa4:B\xdaQ9\xd4\xbaa\xc7\xd2%w\t\xbdR\xcd\xb6{[I\x8d(\n\xaf@\xac\xc7\'p\x84\x17XCZ\x0e\xcd[v \xa1$\x1d\xd7N\x0bJ%\x07Ia\x81\xa5\xeb\xde\tK"CO\x17\x9c\x1c_\xdaPF\x14!(\xc5"%\xc9\x9ax\xdb\x08\x97\xb0)\x917\xa5.\xf3\xc4Oc\x04B\'\xa3~x\xdb\x93L2\xd0\'a\x98\xf6.\x8f\\[o\x0f!\xb4\xd3\x1c)[\xe4\x8e\xe3\x15\xc0@*\x9bd'
+stp(client): sent: b'4x.M?\xab\xc3mF\xc8\x96thz\xdb\x97\x02\xdf;\xb1}\x14\x024y.\xdf\xba\xc3\xc5%Q,9yBi\xafy\x12\x05P\x9a\xee!\xa7=\xa1\x8f\xeb\xfcq\x7f\x8a\xf8\xccu\n=\x18/G\xda?\xc5~\x8c\\t"o\xa0\xddV\xdfvc\xff\x9eh\x1c,\xa6\xea\xed\xeb\xc1d3&\xfc4r\\\xd3ti\xec)\xd3\r\t\xedz0\xe5i\x19m\xcc\xe0\xf4\x8d\x1a\xf2\xed\xba\x8d\x95\x9cI \x98\x11:\xa6\xd3o'
+stp(client): sent: b'\xeb\xaa\x07 A\xe9\xf9\xd7\x8e\x07\xf7\xa7x\xc9SJ\x13I?\xbbR\xb8\x94K\\4\xa7:~I\xe2Y_\x04\xeb8k\xc6\xf3\xf6\xa4\x8e\xa7\xc6\x05D\x07=\xec\xab\xed\xeb\x06\x0f\xc1^E>\xaa\xeb\xf5\xdf\x83uI\xc2n)\x98]xD\x10\xda\x05\x02\xe2\x06\xe9\x91IH\xf8\xed\xa3\xe9\x06\x8d\x90\xb5\x83\xea\xe7\xc8t(&=\xef\xa1\xf4\xae\xd3\x82\xf6\xfd\x1b\xe1\xfbD\x13\xc2ZDYw\x85\x02;\x15\xba\x05\x9a\xde36\x13\x81'
+stp(client): sent: b"\xc38\xd8\x9eg6\x19\x05\xc82~>J\xf8\x86@\x89\x02\xd5\xf5\xfa\x8b\x95ML\xb7+; \n\xe8'8\xea\n\x14\x08\x97AtC\xd3\x85q\x9c\xe6\x1a\xa5\xeb\x99\x8a\xa4\xf3\xd3\xb4\xfb\xbe\x83\n\x15\xe2\xf4\xf6\xf5\xc3e\xa4\xb0\t\xba]y$\x99P\x9d\xa5~xa\xa7\xdb\xf6\x9aj;\x19\xbat9\xc2p\xcau/]\xfe\xd1\xe7W<\x00Y\x89\x85\x82\xb7\xee\x10*J\x9d|\xc9\xdaU\\7\xa3]j\xe1l13\xbf\x8d\x11"
+stp(client): sent: b'|\xd7D\xae*\x07\xfb\x1b\xce\x82\x9e\x00\r:\xea\xcaM\xf1$\x12$\x9b\x1a\x90\x17J\x98X\xed\x02gzI\xdb\x1b\x1e\xca1\x0e\xc4\x05\xbeC\xc1\x01\xe7*{\xce\xd8\xf0\x06!:\xbc\xb8\xd2\x9b]kf\xf4\\\x96\xb6\xcc\x9b}9\xb3\x9b\xb6\xb7q\\\xd6;\x99\xe5l\xa2\x99^\xbfy\xfd\x9c\x90N\x19\x89\xb7\xad\xfa\x89.\xae9\xa4\x96\xa4[/\x11S\xb7\xdc\x03\xbc\x9cf\x92\x08\x14\x1c\xb0\x10b\xba\xcb\x89\xfcoC\x8c\x91\xc4+'
+stp(client): sent: b"\xf9\xf6D\xd9\xb4\xd3H\x96V\xb3-\x8a\x1b\x0e\xf9\xb2\xb6\xd1\x05\xa5\x92X\x01\xecO\xb3\x1b\xbe\xc2B\x81\xa6|\xeb\xf2\x96)lP\xa9:\xf6\x8c\xcd\xdb\x0b{i\n\xd4\x1d@\xe8\x03\xfa\xe3\xf3\xc7\x867\x88\x81$T\xfbv\xdcA_8\xd0\\\x06\xd9n\x19\xc1\xd8MN\xb4\xf6\xd9\x9b\x9e\xe7w\x9f\xf1\x11\x1c\xc4\x02\xa6\x004\xaf\xd5\x0b\xb2x\xb4\xc2\xcd\xb2\xf1\xe5\xd4\x87\x03\xe6\xe5j\x87\xa6\xfa\x14\xf1\xf1\n\xac\x1c{\xfc\xe5\x07}'"
+stp(client): sent: b'U\x8aX\'\xd8O8\xd7\xf9\r\x85\x87\xa7\xc5\x88\x8d\xe4\xf6/}\xb5\xeb#\xb2!\xb7O\xc4\x0b\xd1\xb8\xf9\\\x9f\xa7F0`*?~\x15\xfa\x10\xb4.\x89\x04{(]\xec\x82\x9b\xae\xab?7\x16\xd4\x1dP\x1f\xfbN\x90\xcd\xa4\x15}\xbe^\xd7N\xff\xcc\xb8\xee\x8c\x80(\x9e\xdb\x1f\x89qY5 \n\xee\xbb>\xa2[\xdf\xd0\xfb\xfd)@\x0b\xcb?\xf0d\xe7\xd3\\R\xc6\xe0\x97\x85\x83"\x8a\x83O\xcd\x08\xdf#\xd0\xe7h\xb7='
+stp(client): sent: b"\xef\\\xff\x1f\nv\xe9\x89T\xb8\x1c\xdd~\xeb\xb1w\x9f\x0bma^\x13\xd4o`eSAi\xc3\xe2\x129\x9a\xfd\x13\x97\xd5~\r\xa1o\xa2\xd8\xdc\x15I\x9cK1sa\xfa\x05\xf8\xcbg\xd6\x08\xef\xe0\xa2\xb5\xf0\x86\x82\xear}\x16/\xa754t\x1f\x7f\x1a\xe8g@\x05\xa4\x87\x7f\xb2\xbc\xd6\xe8\xf7(\xf5\xcd\xcc\x1a\xa3\xfa\xb3?\xce\xf2]\xe8\xea\xf1\xbb\x8f}'F\x00L\x15:\x1e\xea\x87\x81\xdeu`\xf7\xc5\x9eb\xe6;O"
+stp(client): sent: b'g<v=:\x12\x9b\xa2@\x9e\xdf\xfaX\x9f\xcf\x8a\xaeD\xb8\xf6t\xb6lJSE\x060S\x18\xc6\xcd\x07}}~\xd8rx\xf3\xf4\xfb}\x95\xea\xfcY\xd2f\xc0e\xbb\xe1\xf7o\xc0\xd9/\xf0\x87\x89Z\xd9\x19_ \xd2\xe9o&\x84\x1f`)\x1b\xbe\x85\x8a\xfd1\xee\xa1\x11\x11\x05\xd2t\xf9\x1cG\r\xbf\t\x0b\xfb\xee\xd8&[\xe5\x01\x82\\\xb2g>|\xfc\x038d\xdf\xb5/\x85i\x8dZ \xdc\xf5\x92\xc7\xf3!\xeb\xf3\xf3'
+stp(client): sent: b'\x7fi+\xbc\x87\xff\xb6\x17\xfc\xc3?\xfc\xc3?\xfc\xc3_\x8d\xff\x03552V\x03P\xbe\xa4\x00\x00\x00\x00IEND\xaeB`\x82'
+stp(client): uploading complete
+stp(client): connection shutdown
+stp(client): socket closed
 
+stp(client): socket created
+stp(client): sent: $name:sample7.pdf$
+stp(client): sent: $size:3028$
+stp(client): sent: <configuration_complete>
+stp(client): received: #20:COMMAND_MISSING#
+stp(client): connection shutdown
+stp(client): socket closed
 
 End of task12 Testing
 ----------------------------------------

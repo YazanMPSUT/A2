@@ -105,8 +105,8 @@ validate_configuration(['$type:text$', '$name:file1.t.xt$', '$size:78$']):
 validate_configuration(['$name:file1.txt$', '$type:text$', '$size:75$']):
 ('<configuration_approved>', ['$name:file1.txt$', '$type:text$', '$size:75$'])
 
-validate_configuration(['$name:r.jpg$', '$type:pic$', '$pad=q$', '$size:7$']):
-('<configuration_approved>', ['$name:r.jpg$', '$type:pic$', '$pad=q$', '$size:7$'])
+validate_configuration(['$name:r.jpg$', '$type:pic$', '$pad:q$', '$size:7$']):
+('<configuration_approved>', ['$name:r.jpg$', '$type:pic$', '$pad:q$', '$size:7$'])
 
 End of task5 Testing
 ----------------------------------------
